@@ -6,14 +6,19 @@ import login from "../../assets/svg/login.svg";
 import time from "../../assets/svg/time-fill.svg";
 import recipe from "../../assets/svg/food-menu.svg";
 import favorite from "../../assets/svg/favorite.svg";
+import img1 from "../../assets/img/food1_gallery.jpg";
+import img2 from "../../assets/img/food2_gallery.jpg";
+import img3 from "../../assets/img/food3_gallery.jpg";
+import img4 from "../../assets/img/food4_gallery.jpg";
+import img5 from "../../assets/img/food5_gallery.jpg";
 
 const index = () => {
   return (
     <>
-      <div className="container mx-auto">
-        <section
-          aria-label="receitas de pratos"
-          className="w-full max-w-7xl mx-auto py-12"
+      <div className="container mx-auto px-4 sm:px-0">
+        <section 
+        aria-label="receitas de pratos" 
+        className="w-full max-w-7xl mx-auto py-12"
         >
           <h1 className="text-primaria font-bold text-2xl sm:text-3xl lg:text-4xl text-start sm:text-center mb-12 lg:mb-16 px-4">
             Pratos práticos, estéticos e deliciosos para a sua próxima refeição.
@@ -23,7 +28,7 @@ const index = () => {
             alt="Variedade de pratos da culinária indiana"
             className="w-[90%] sm:w-full h-auto max-h-[600px] aspect-video lg:aspect-auto object-cover object-center rounded-3xl mx-auto mb-12 shadow-sm"
           />
-        
+
           <div className="flex flex-col lg:flex-row justify-between items-center gap-12 px-6 lg:px-16 xl:-mt-20">
             <div className="grid grid-cols-2 sm:flex sm:flex-wrap justify-center sm:justify-around items-center gap-8 lg:gap-12 flex-1 order-1 lg:order-2">
               {[
@@ -59,6 +64,63 @@ const index = () => {
                 </div>
               </div>
             </article>
+          </div>
+        </section>
+
+
+        <section 
+        aria-label="galeria-de-fotos"
+        className="grid grid-cols-2 lg:grid-cols-3 w-full h-auto lg:h-[600px] items-stretch gap-0 mb-16"
+        >
+          <div className="flex flex-col h-full border-none">
+            <div className="bg-escuro p-4 md:p-8 rounded-3xl flex items-center justify-center min-h-[100px]">
+              <span className="text-white font-bold text-sm md:text-lg text-center">
+                Da sua cozinha para o mundo.
+              </span>
+            </div>
+            <div className="flex-1">
+              <img
+                src={img1}
+                className="w-full h-full object-cover rounded-3xl"
+                alt="Kabsa"
+              />
+            </div>
+          </div>
+
+          <div className="flex flex-col h-full">
+            <div className="flex-1">
+              <img
+                src={img2}
+                className="w-full h-full object-cover rounded-3xl"
+                alt="Feijoada"
+              />
+            </div>
+            <div className="flex-1">
+              <img
+                src={img3}
+                className="w-full h-full object-cover rounded-3xl"
+                alt="Tacos"
+              />
+            </div>
+          </div>
+
+          <div className="flex flex-col h-full col-span-2 lg:col-span-1">
+            <div className="flex flex-row lg:flex-col h-full">
+              <div className="flex-1">
+                <img
+                  src={img4}
+                  className="w-full h-full object-cover rounded-3xl"
+                  alt="Paella"
+                />
+              </div>
+              <div className="flex-1">
+                <img
+                  src={img5}
+                  className="w-full h-full object-cover rounded-3xl"
+                  alt="Pizza"
+                />
+              </div>
+            </div>
           </div>
         </section>
       </div>
