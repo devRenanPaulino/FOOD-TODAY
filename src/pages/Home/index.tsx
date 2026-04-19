@@ -124,6 +124,18 @@ const index = () => {
           </div>
         </section>
       </div>
+
+      <section className="bg-primaria w-full ">
+        <blockquote className="max-w-5xl mx-auto py-[400px]">
+          <p className="font-citacao italic text-white text-3xl sm:text-7xl">
+            "A comida é a nossa linguagem comum universal."
+          </p>
+
+          <cite className="font-semibold text-white text-sm sm:text-lg">
+            — James Beard
+          </cite>
+        </blockquote>
+      </section>
     </>
   );
 };

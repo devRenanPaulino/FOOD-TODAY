@@ -1,16 +1,16 @@
-@import 'tailwindcss';
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400&display=swap');
+@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@700&family=Open+Sans:wght@400&display=swap");
 
 @theme {
-
-  --color-primaria: #94191D;
-  --color-creme: #F3F3E7;
-  --color-secundaria: #DE6536;
-  --color-escuro: #201C14;
+  --color-primaria: #94191d;
+  --color-creme: #f3f3e7;
+  --color-secundaria: #de6536;
+  --color-escuro: #201c14;
   --color-texto: #333333;
 
   --font-titulo: "Montserrat", sans-serif;
   --font-corpo: "Open Sans", sans-serif;
+  --font-citacao: "Merriweather", sans-serif;
 }
 
 @layer base {
@@ -18,7 +18,10 @@
     @apply bg-creme text-texto font-corpo;
   }
 
-  h1, h2, h3, h4 {
+  h1,
+  h2,
+  h3,
+  h4 {
     @apply font-titulo text-escuro;
   }
 }
