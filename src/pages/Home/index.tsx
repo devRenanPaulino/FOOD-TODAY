@@ -23,7 +23,7 @@ const index = () => {
             alt="Variedade de pratos da culinária indiana"
             className="w-[90%] sm:w-full h-auto max-h-[600px] aspect-video lg:aspect-auto object-cover object-center rounded-3xl mx-auto mb-12 shadow-sm"
           />
-        
+
           <div className="flex flex-col lg:flex-row justify-between items-center gap-12 px-6 lg:px-16 xl:-mt-20">
             <div className="grid grid-cols-2 sm:flex sm:flex-wrap justify-center sm:justify-around items-center gap-8 lg:gap-12 flex-1 order-1 lg:order-2">
               {[
@@ -62,6 +62,18 @@ const index = () => {
           </div>
         </section>
       </div>
+
+      <section className="bg-primaria w-full ">
+        <blockquote className="max-w-5xl mx-auto py-[400px]">
+          <p className="font-citacao italic text-white text-3xl sm:text-7xl">
+            "A comida é a nossa linguagem comum universal."
+          </p>
+
+          <cite className="font-semibold text-white text-sm sm:text-lg">
+            — James Beard
+          </cite>
+        </blockquote>
+      </section>
     </>
   );
 };
