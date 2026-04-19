@@ -1,1 +1,24 @@
 @import 'tailwindcss';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400&display=swap');
+
+@theme {
+
+  --color-primaria: #94191D;
+  --color-creme: #F3F3E7;
+  --color-secundaria: #DE6536;
+  --color-escuro: #201C14;
+  --color-texto: #333333;
+
+  --font-titulo: "Montserrat", sans-serif;
+  --font-corpo: "Open Sans", sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-creme text-texto font-corpo;
+  }
+
+  h1, h2, h3, h4 {
+    @apply font-titulo text-escuro;
+  }
+}
