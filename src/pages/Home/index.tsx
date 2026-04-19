@@ -16,9 +16,9 @@ const index = () => {
   return (
     <>
       <div className="container mx-auto px-4 sm:px-0">
-        <section 
-        aria-label="receitas de pratos" 
-        className="w-full max-w-7xl mx-auto py-12"
+        <section
+          aria-label="receitas de pratos"
+          className="w-full max-w-7xl mx-auto pt-12 pb-24 lg:pb-32"
         >
           <h1 className="text-primaria font-bold text-2xl sm:text-3xl lg:text-4xl text-start sm:text-center mb-12 lg:mb-16 px-4">
             Pratos práticos, estéticos e deliciosos para a sua próxima refeição.
@@ -29,7 +29,7 @@ const index = () => {
             className="w-[90%] sm:w-full h-auto max-h-[600px] aspect-video lg:aspect-auto object-cover object-center rounded-3xl mx-auto mb-12 shadow-sm"
           />
 
-          <div className="flex flex-col lg:flex-row justify-between items-center gap-12 px-6 lg:px-16 xl:-mt-20">
+          <div className="relative z-10 flex flex-col lg:flex-row justify-between items-center gap-12 px-6 lg:px-16 -mt-16 lg:-mt-24">
             <div className="grid grid-cols-2 sm:flex sm:flex-wrap justify-center sm:justify-around items-center gap-8 lg:gap-12 flex-1 order-1 lg:order-2">
               {[
                 { img: recipe, label: "Receitas Diversas" },
@@ -67,10 +67,9 @@ const index = () => {
           </div>
         </section>
 
-
-        <section 
-        aria-label="galeria-de-fotos"
-        className="grid grid-cols-2 lg:grid-cols-3 w-full h-auto lg:h-[600px] items-stretch gap-0 mb-16"
+        <section
+          aria-label="galeria-de-fotos"
+          className="grid grid-cols-2 lg:grid-cols-3 w-full h-auto lg:h-[600px] items-stretch gap-0 mb-16"
         >
           <div className="flex flex-col h-full border-none">
             <div className="bg-escuro p-4 md:p-8 rounded-3xl flex items-center justify-center min-h-[100px]">
@@ -125,7 +124,7 @@ const index = () => {
         </section>
       </div>
 
-      <section className="bg-primaria w-full ">
+      <section className="bg-primaria w-full mt-[340px]">
         <blockquote className="max-w-5xl mx-auto py-[400px]">
           <p className="font-citacao italic text-white text-3xl sm:text-7xl">
             "A comida é a nossa linguagem comum universal."
