@@ -124,7 +124,7 @@ const index = () => {
         </section>
       </div>
 
-      <section className="bg-primaria w-full mt-[340px]">
+      <section className="bg-primaria w-full mt-[340px] mb-32">
         <blockquote className="max-w-5xl mx-auto py-[400px]">
           <p className="font-citacao italic text-white text-3xl sm:text-7xl">
             "A comida é a nossa linguagem comum universal."
