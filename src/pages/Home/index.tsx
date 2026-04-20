@@ -136,8 +136,8 @@ const index = () => {
         </blockquote>
       </section>
 
-      <section className="container mx-auto my-16">
-        
+      <section className="container mx-auto my-16" aria-labelledby="escolhas-do-chef">
+        <h2 id="escolhas-do-chef" className="text-xl sm:text-2xl lg:text-4xl ">Escolhas do chef: </h2>
       </section>
     </>
   );
