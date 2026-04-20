@@ -135,6 +135,10 @@ const index = () => {
           </cite>
         </blockquote>
       </section>
+
+      <section className="container mx-auto my-16">
+        
+      </section>
     </>
   );
 };
