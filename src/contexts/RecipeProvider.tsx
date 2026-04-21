@@ -12,7 +12,6 @@ export function RecipeProvider({children}: {children: ReactNode}) {
     return data ? recipeService.transform(data) : [];
   }, [data])
 
-  // Aplica a lógica de filtros dinâmicos
   const filteredRecipes = React.useMemo(() => {
     // Se o filtro for o padrão, retorna tudo
     if (activeFilter === 'explorar o mundo') return allRecipes;
@@ -26,8 +25,9 @@ export function RecipeProvider({children}: {children: ReactNode}) {
     return recipeService.filterByTag(allRecipes, activeFilter as Tags);
   }, [allRecipes, activeFilter]);
 
+  // Escolhas do chef
   const escolhasChef = React.useMemo(() => {
-    return allRecipes.filter((r) => [0, 12, 16].includes(r.id))
+    return recipeService.getChefChoices(allRecipes)
   }, [allRecipes])
 
   return (

@@ -23,5 +23,10 @@ export const recipeService = {
 
   filterExpress(recipes: Recipe[], tempoMax: number = 30) : Recipe[] {
     return recipes.filter(r => r.tempo_preparo <= tempoMax)
+  },
+
+  getChefChoices(recipes: Recipe[]): Recipe[] {
+    const idsDoChef = [0, 12, 16];
+    return recipes.filter(r => idsDoChef.includes(r.id));
   }
 };
