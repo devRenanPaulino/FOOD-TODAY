@@ -11,8 +11,15 @@ import img2 from "../../assets/img/food2_gallery.jpg";
 import img3 from "../../assets/img/food3_gallery.jpg";
 import img4 from "../../assets/img/food4_gallery.jpg";
 import img5 from "../../assets/img/food5_gallery.jpg";
+import useFetch from "../../hooks/useFetch";
+import type { Recipe } from "../../domain/types/Recipe";
+import RecipeCard from "../../components/ui/Recipe/RecipeCard";
 
-const index = () => {
+const Index = () => {
+  const { data, isLoading, error } = useFetch<Recipe[]>("../../data/recipe.json");
+
+  const receitasChef = data?.filter((r) => [0, 12, 16].includes(r.id)) || [];
+
   return (
     <>
       <div className="container mx-auto px-4 sm:px-0">
@@ -124,8 +131,8 @@ const index = () => {
         </section>
       </div>
 
-      <section className="bg-primaria w-full mt-[340px] mb-32">
-        <blockquote className="max-w-5xl mx-auto py-[400px]">
+      <section className="bg-primaria w-full sm:mt-[340px] mb-32 px-4">
+        <blockquote className="max-w-5xl mx-auto py-52 sm:py-[400px] text-center sm:text-start">
           <p className="font-citacao italic text-white text-3xl sm:text-7xl">
             "A comida é a nossa linguagem comum universal."
           </p>
@@ -136,11 +143,45 @@ const index = () => {
         </blockquote>
       </section>
 
-      <section className="container mx-auto my-16" aria-labelledby="escolhas-do-chef">
-        <h2 id="escolhas-do-chef" className="text-xl sm:text-2xl lg:text-4xl ">Escolhas do chef: </h2>
+      <section
+        className="container mx-auto my-16"
+        aria-labelledby="escolhas-do-chef"
+      >
+        <h2
+          id="escolhas-do-chef"
+          className="text-xl sm:text-2xl lg:text-4xl mb-16 text-primaria font-bold"
+        >
+          Escolhas do Chef:
+        </h2>
+
+        {isLoading && (
+          <div className="flex justify-center items-center py-20">
+            <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-primaria"></div>
+            <p className="ml-4 text-primaria font-medium">
+              Buscando as melhores receitas...
+            </p>
+          </div>
+        )}
+
+        {error && !isLoading && (
+          <p className="text-red-500 text-center py-10">
+            Não foi possível carregar as escolhas do chef.
+          </p>
+        )}
+
+        {!isLoading && data && (
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center">
+            {receitasChef.map((recipe) => (
+              <RecipeCard 
+              key={recipe.id}
+              recipe={recipe}
+              />
+            ))}
+          </div>
+        )}
       </section>
     </>
   );
 };
 
-export default index;
+export default Index;
