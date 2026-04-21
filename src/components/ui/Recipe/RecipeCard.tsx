@@ -35,10 +35,9 @@ const RecipeCard = ({ recipe }: CardProps) => {
               {dificuldade}
             </span>
           </div>
-          <span className="text-[10px] text-gray-500 font-medium">⏱ {tempo_preparo}</span>
+          <span className="text-[10px] text-gray-500 font-medium">⏱ {tempo_preparo}min</span>
         </div>
 
-        {/* Dica do Chef: Mantemos, mas com fonte menor e limite de linhas no mobile */}
         <div className="pt-3 border-t border-dashed border-gray-200">
           <p className="hidden sm:block text-[10px] text-gray-400 font-semibold uppercase mb-1">Dica do Chef</p>
           <p className="text-[11px] sm:text-sm text-gray-600 italic leading-snug line-clamp-2 sm:line-clamp-3">
