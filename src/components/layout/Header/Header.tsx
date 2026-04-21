@@ -10,7 +10,7 @@ const Header = () => {
   const [isOpen, setIsOpen] = React.useState(false);
 
   return (
-    <header className="container mx-auto flex h-[90px] lg:h-[110px] items-center justify-around bg-transparent">
+    <header className="container relative mx-auto flex h-[90px] lg:h-[110px] items-center justify-around bg-transparent z-50">
       <Link to="/">
         <img
          src={Logo} 
