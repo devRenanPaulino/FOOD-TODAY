@@ -11,14 +11,12 @@ import img2 from "../../assets/img/food2_gallery.jpg";
 import img3 from "../../assets/img/food3_gallery.jpg";
 import img4 from "../../assets/img/food4_gallery.jpg";
 import img5 from "../../assets/img/food5_gallery.jpg";
-import useFetch from "../../hooks/useFetch";
-import type { Recipe } from "../../domain/types/Recipe";
 import RecipeCard from "../../components/ui/Recipe/RecipeCard";
+import { useRecipes } from "../../contexts/useRecipes";
 
 const Index = () => {
-  const { data, isLoading, error } = useFetch<Recipe[]>("../../data/recipe.json");
 
-  const receitasChef = data?.filter((r) => [0, 12, 16].includes(r.id)) || [];
+  const {escolhasChef, isLoading, error} = useRecipes();
 
   return (
     <>
@@ -169,9 +167,9 @@ const Index = () => {
           </p>
         )}
 
-        {!isLoading && data && (
+        {!isLoading && escolhasChef && (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center">
-            {receitasChef.map((recipe) => (
+            {escolhasChef.map((recipe) => (
               <RecipeCard 
               key={recipe.id}
               recipe={recipe}
