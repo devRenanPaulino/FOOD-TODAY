@@ -20,7 +20,7 @@ const Index = () => {
 
   return (
     <>
-      <div className="container mx-auto px-4 sm:px-0">
+      <div className="container mx-auto px-4 sm:px-2">
         <section
           aria-label="receitas de pratos"
           className="w-full max-w-7xl mx-auto pt-12 pb-24 lg:pb-32"
@@ -142,12 +142,12 @@ const Index = () => {
       </section>
 
       <section
-        className="container mx-auto my-16"
+        className="container mx-auto my-16 px-4 sm:px-2"
         aria-labelledby="escolhas-do-chef"
       >
         <h2
           id="escolhas-do-chef"
-          className="text-xl sm:text-2xl lg:text-4xl mb-16 text-primaria font-bold"
+          className="text-4xl mb-16 text-primaria font-bold"
         >
           Escolhas do Chef:
         </h2>
