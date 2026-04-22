@@ -5,7 +5,7 @@ import { recipeService } from "../data/services/recipeService";
 import { RecipeContext } from "./RecipeContext";
 
 export function RecipeProvider({children}: {children: ReactNode}) {
-  const {data, isLoading, error} = useFetch<Recipe[]>("../../public/data/recipe.json")
+  const {data, isLoading, error} = useFetch<Recipe[]>("/data/recipe.json")
   const [activeFilter, setActiveFilter] = React.useState<Tags | 'explorar o mundo'>('explorar o mundo');
 
   const allRecipes = React.useMemo(() => {
