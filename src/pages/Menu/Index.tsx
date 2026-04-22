@@ -1,9 +1,10 @@
 import bgImage from "../../assets/img/topHeroMenu.jpg";
 import { useRecipes } from "../../contexts/useRecipes";
 import RecipeCard from "../../components/ui/Recipe/RecipeCard";
+import { CategoryCard } from "../../components/ui/Category/CategoryCard";
 
 const Index = () => {
-  const { filteredRecipes, isLoading, error, activeFilter, } = useRecipes();
+  const { filteredRecipes, isLoading, error, activeFilter } = useRecipes();
 
   if (isLoading) {
     return (
@@ -33,9 +34,13 @@ const Index = () => {
           />
         </section>
 
+        <section className="mt-32">
+          <CategoryCard />
+        </section>
+
         <section
           aria-label="lista-de-receitas"
-          className="container my-16 mx-auto p-4 sm:p-0 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
+          className="container my-16 p-4 sm:p-0 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 place-items-center mx-auto gap-8"
         >
           {filteredRecipes.map((recipe) => (
             <RecipeCard key={recipe.id} recipe={recipe} />

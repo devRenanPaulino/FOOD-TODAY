@@ -35,7 +35,7 @@ const Index = () => {
           />
 
           <div className="relative z-10 flex flex-col lg:flex-row justify-between items-center gap-12 px-6 lg:px-16 -mt-16 lg:-mt-24">
-            <div className="grid grid-cols-2 sm:flex sm:flex-wrap justify-center sm:justify-around items-center gap-8 lg:gap-12 flex-1 order-1 lg:order-2">
+            <div className="grid grid-cols-2 sm:flex sm:flex-wrap justify-center sm:justify-around items-center gap-6 lg:gap-4 flex-1 order-1 lg:order-2">
               {[
                 { img: recipe, label: "Receitas Diversas" },
                 { img: time, label: "Praticidade e Tempo" },
@@ -43,7 +43,7 @@ const Index = () => {
               ].map((item, index) => (
                 <div
                   key={index}
-                  className="flex flex-col items-center text-center gap-3 transition-transform hover:scale-105"
+                  className="flex flex-col items-center text-center gap-3 mt-14 transition-transform hover:scale-105"
                 >
                   <img src={item.img} alt="" className="w-10 h-10" />
                   <span className="text-sm font-medium text-gray-700 ">
