@@ -12,6 +12,12 @@ export type Tags =
   | 'Plant Based' 
   | 'Mar & Rio'
   | 'Churrasco & Brasa';
+
+export interface CategoriaOpcao {
+  label: Tags | 'explorar o mundo';
+  icon: string;
+  title: string;
+}
 export interface Recipe {
   id: number;
   imagem: string;

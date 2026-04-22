@@ -15,23 +15,23 @@ const RecipeCard = ({ recipe }: CardProps) => {
           src={imagem}
           alt={titulo}
         />
-        <span className="absolute top-3 left-3 px-3 py-1 bg-white/90 backdrop-blur-md text-primaria text-[10px] font-bold rounded-full z-10">
+        <span className="absolute top-3 left-3 px-3 py-1 bg-primaria text-white text-xs  font-bold rounded-full z-10">
           {caracteristica}
         </span>
       </div>
 
       <div className="p-4 sm:p-6 flex flex-col gap-2 sm:gap-4">
         
-        <h2 className="font-bold text-lg sm:text-2xl text-escuro leading-tight line-clamp-1 sm:line-clamp-2">
+        <h2 className="font-bold text-lg sm:text-2xl text-escuro leading-tight line-clamp-1 sm:line-clamp-2 truncate">
           {titulo}
         </h2>
 
         <div className="flex items-center justify-between sm:justify-start sm:gap-3">
           <div className="flex gap-2">
-            <span className="px-4 py-2 bg-primaria/10 text-primaria text-xs font-bold rounded-md">
+            <span className="px-4 py-2 bg-secundaria text-white text-xs font-bold rounded-md">
               {culinaria}
             </span>
-            <span className="px-4 py-2 bg-gray-100 text-gray-600 text-xs font-bold rounded-md">
+            <span className="px-4 py-2 bg-secundaria text-white text-xs font-bold rounded-md">
               {dificuldade}
             </span>
           </div>
