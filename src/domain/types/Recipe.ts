@@ -18,6 +18,7 @@ export interface CategoriaOpcao {
   icon: string;
   title: string;
 }
+
 export interface Recipe {
   id: number;
   imagem: string;
@@ -29,4 +30,8 @@ export interface Recipe {
   tempo_preparo: number;
   tags: Tags[];
   dica_chefe: string;
+  autor: string;
+  porcoes: number;
+  ingredientes: string[];
+  passos: string[];
 }
