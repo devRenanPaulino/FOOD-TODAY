@@ -2,6 +2,6 @@ export interface ContactFormData {
   primeiroNome: string;
   sobrenome: string;
   email: string;
-  sugestão: string;
+  sugestao: string;
   newsletter: boolean;
 }

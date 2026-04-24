@@ -11,7 +11,7 @@ const Index = () => {
     handleSubmit,
     formState: { errors },
     reset,
-  } = useForm({ mode: "onChange"  });
+  } = useForm<ContactFormData>({ mode: "onChange"  });
 
   const onSubmit = (formData: ContactFormData) => {
     console.log("Dados Enviados: ", formData);
