@@ -7,7 +7,7 @@ type InputProps = React.ComponentProps<'input'> & {
 }
 
 const Input = forwardRef<HTMLInputElement, InputProps>( 
-    ({erro, errorClassname = 'text-primaria', label, ...inputProps}, ref) => {
+    ({erro, errorClassname = 'mt-2 text-xs text-primaria', label, ...inputProps}, ref) => {
   return (
     <div>
         <input
@@ -17,7 +17,7 @@ const Input = forwardRef<HTMLInputElement, InputProps>(
         className="w-full border-b-2 border-primaria outline-none focus:ring-0 focus:shadow-[0_4px_6px_-1px_rgba(0,0,0,0.1),0_4px_8px_-2px_rgba(0,0,0,0.1)] focus:shadow-primaria/40 px-4 py-2"
         placeholder={label}
         />
-        {erro && <p className={errorClassname}>{erro}</p>}
+        {erro && <span className={errorClassname}>{erro}</span>}
     </div>
   )
 }
