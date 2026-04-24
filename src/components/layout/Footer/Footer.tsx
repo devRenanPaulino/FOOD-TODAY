@@ -14,7 +14,7 @@ const Footer = () => {
               key={i}
               className="transition-all hover:-translate-y-1 cursor-pointer"
             >
-              <img src={icon} />
+              <img src={icon} alt="midia social"/>
             </div>
           ))}
         </div>

@@ -1,4 +1,4 @@
-import React, { useMemo } from "react";
+import React from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { useRecipes } from "../../contexts/useRecipes";
 
@@ -22,7 +22,7 @@ const RecipeDetail = () => {
   const { getRecipeById, isLoading } = useRecipes();
   const navigate = useNavigate();
 
-  const recipe = useMemo(() => 
+  const recipe = React.useMemo(() => 
   getRecipeById(Number(id)), 
   [getRecipeById, id]
 );
