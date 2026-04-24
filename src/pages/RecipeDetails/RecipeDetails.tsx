@@ -14,7 +14,7 @@ const tagColors: Record<string, string> = {
 const dificuldadeCor: Record<string, string> = {
   Fácil: "bg-green-100 text-green-700",
   Médio: "bg-yellow-100 text-yellow-700",
-  Dificíl: "bg-red-100 text-red-700",
+  Difícil: "bg-red-100 text-red-700",
 };
 
 const RecipeDetail = () => {

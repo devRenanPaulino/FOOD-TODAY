@@ -9,12 +9,16 @@ const Footer = () => {
       <div className="flex items-center justify-center gap-5 px-10 py-8">
         <div className="flex-1 h-[2px] bg-primaria" />
         <div className="flex gap-4">
-          {[insta, face, linkedin].map((icon, i) => (
+          {[
+          { icon: insta, label: 'Instagram' },
+          { icon: face,  label: 'Facebook'  },
+          { icon: linkedin, label: 'LinkedIn' },
+        ].map((item, i) => (
             <div
               key={i}
               className="transition-all hover:-translate-y-1 cursor-pointer"
             >
-              <img src={icon} alt="midia social"/>
+              <img src={item.icon} alt={item.label} />
             </div>
           ))}
         </div>

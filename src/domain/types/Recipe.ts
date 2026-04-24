@@ -24,7 +24,7 @@ export interface Recipe {
   imagem: string;
   caracteristica: string;
   titulo: string;
-  dificuldade: 'Fácil' | 'Médio' | 'Dificíl';
+  dificuldade: 'Fácil' | 'Médio' | 'Difícil';
   categoria: Category;
   culinaria: string;
   tempo_preparo: number;

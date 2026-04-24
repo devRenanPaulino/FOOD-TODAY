@@ -1,73 +1,104 @@
-# React + TypeScript + Vite
+# 🍽️ FOOD TODAY — Livro de Receitas
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicação web de receitas culinárias desenvolvida como Checkpoint 5 da disciplina **Responsive Web Development** — FIAP, Tecnologia em Análise e Desenvolvimento de Sistemas.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🎯 Objetivo
 
-## React Compiler
+Exibir e navegar por receitas culinárias organizadas por categorias, com dados carregados dinamicamente a partir de um arquivo JSON local. A aplicação permite filtrar receitas por tags, visualizar detalhes completos de cada prato e entrar em contato com a equipe via formulário validado.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tecnologias utilizadas
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+| Tecnologia | Versão | Finalidade |
+|---|---|---|
+| [Vite.js](https://vitejs.dev/) | 6.x | Bundler e servidor de desenvolvimento |
+| [React](https://react.dev/) | 19.x | Biblioteca de UI |
+| [TypeScript](https://www.typescriptlang.org/) | 6.x | Tipagem estática |
+| [Tailwind CSS](https://tailwindcss.com/) | 4.x | Estilização utilitária |
+| [React Router DOM](https://reactrouter.com/) | 7.x | Roteamento (simples, dinâmico e aninhado) |
+| [React Hook Form](https://react-hook-form.com/) | 7.x | Formulários com validação |
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## 🚀 Como executar o projeto
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+### Pré-requisitos
+
+- [Node.js](https://nodejs.org/) v18 ou superior
+- npm v9 ou superior
+
+### Instalação e execução
+
+```bash
+# 1. Clone o repositório ou extraia o .zip
+cd FOOD-TODAY-master
+
+# 2. Instale as dependências
+npm install
+
+# 3. Inicie o servidor de desenvolvimento
+npm run dev
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+A aplicação ficará disponível em **http://localhost:5173**
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### Build para produção
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+npm run build
+npm run preview
 ```
+
+---
+
+## 📁 Estrutura do projeto
+
+```
+src/
+├── assets/          # Imagens e ícones SVG
+├── components/
+│   ├── layout/      # Header e Footer
+│   ├── ui/          # Componentes reutilizáveis (Button, Input, RecipeCard, CategoryCard)
+│   └── utils/       # Utilitários (ScrollToTop)
+├── contexts/        # RecipeContext, RecipeProvider e hook useRecipes
+├── data/
+│   └── services/    # recipeService — lógica de filtragem e transformação
+├── domain/
+│   └── types/       # Tipagens TypeScript (Recipe, Contact)
+├── hooks/           # useFetch — hook genérico de requisição
+├── layouts/         # RootLayout com Outlet
+├── pages/           # Home, Menu, RecipeDetails, Contact
+└── styles/          # index.css
+
+public/
+└── data/
+    └── recipe.json  # 60 receitas (20 pratos principais, 20 sobremesas, 10 saladas, 10 bebidas)
+```
+
+---
+
+## 📄 Funcionalidades
+
+- **Listagem de receitas** com cards responsivos
+- **Filtro por tags** (Raízes do Brasil, Churrasco & Brasa, Plant Based, Mar & Rio, Express, Explorar o Mundo)
+- **Detalhes da receita** com ingredientes, modo de preparo, tempo, dificuldade e dica do chef
+- **Formulário de contato** com validação completa via React Hook Form
+- **Navegação responsiva** com menu hambúrguer no mobile
+- **Scroll automático** ao topo em cada troca de rota
+
+---
+
+## 👥 Equipe
+
+| Nome | RM |
+|---|---|
+| Murilo Ayabe Severino | RM567479 |
+| Paulo Cavalcante Caroba | RM566667 |
+| Renan da Silva Paulino | RM566610 |
+
+---
+
+**FIAP — Checkpoint 5 | Prof. Adriano Milanez**

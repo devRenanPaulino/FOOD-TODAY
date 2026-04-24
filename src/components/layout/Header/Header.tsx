@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import Button from "../../ui/Button/Button";
 
 import Logo from "../../../assets/svg/FOOD-TODAY.svg";
-import Search from "../../../assets/svg/search.svg";
 import Login from "../../../assets/svg/login.svg";
 
 const Header = () => {
@@ -13,19 +12,16 @@ const Header = () => {
     <header className="container relative mx-auto flex h-[90px] lg:h-[110px] items-center justify-around bg-transparent z-50">
       <Link to="/">
         <img
-         src={Logo} 
-         alt="Logo escrito FOOD TODAY" 
-         className="w-[140px] h-auto sm:w-2xs "
-         />
+          src={Logo}
+          alt="Logo escrito FOOD TODAY"
+          className="w-[140px] h-auto sm:w-2xs "
+        />
       </Link>
 
       <nav className="hidden lg:flex py-4 px-6 bg-creme rounded-2xl border-2 border-primaria gap-16 text-primaria text-lg font-medium">
         <Link to="/">Home</Link>
         <Link to="/menu">Menu</Link>
         <Link to="/contact">Contato</Link>
-        <Link to="/search">
-          <img src={Search} alt="Pesquisar com IA" />
-        </Link>
       </nav>
 
       <div className="hidden lg:block w-44">
@@ -53,10 +49,13 @@ const Header = () => {
       {/* Menu Mobile */}
       <nav
         className={`
-        fixed inset-0 bg-creme z-40 flex flex-col items-center justify-center gap-8 text-primaria text-2xl font-bold transition-transform duration-300
-        bg-escuro/5 backdrop-blur-md border-l border-white/20
-        ${isOpen ? "translate-x-0" : "translate-x-full"} lg:hidden
-      `}
+    fixed inset-0 z-40 flex flex-col items-center justify-center gap-8
+    text-primaria text-2xl font-bold
+    transition-transform duration-300
+    bg-escuro/5 backdrop-blur-md border-l border-white/20
+    overflow-hidden overscroll-none touch-none
+    ${isOpen ? "translate-x-0" : "translate-x-full"} lg:hidden
+  `}
       >
         <Link to="/" onClick={() => setIsOpen(false)}>
           Home
