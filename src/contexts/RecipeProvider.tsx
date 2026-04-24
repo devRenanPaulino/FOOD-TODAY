@@ -30,6 +30,13 @@ export function RecipeProvider({children}: {children: ReactNode}) {
     return recipeService.getChefChoices(allRecipes)
   }, [allRecipes])
 
+  // Id especifico
+  const getRecipeById = React.useCallback((id: number) => {
+  if (allRecipes.length === 0) return undefined;
+  
+  return recipeService.getById(allRecipes, id);
+}, [allRecipes]);
+
   return (
     <RecipeContext.Provider value={{
       recipes: allRecipes,
@@ -38,7 +45,8 @@ export function RecipeProvider({children}: {children: ReactNode}) {
       activeFilter,
       setActiveFilter,
       isLoading,
-      error
+      error,
+      getRecipeById
     }}>
       {children}
     </RecipeContext.Provider>

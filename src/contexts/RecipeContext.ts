@@ -9,6 +9,7 @@ export interface RecipeContextData {
   setActiveFilter: (filter: Tags | 'explorar o mundo') => void;
   isLoading: boolean;
   error: string | null;
+  getRecipeById: (id: number) => Recipe;
 }
 
 export const RecipeContext = React.createContext<RecipeContextData | undefined>(undefined);

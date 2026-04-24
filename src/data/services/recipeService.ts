@@ -18,15 +18,19 @@ export const recipeService = {
   },
 
   filterByTag(recipes: Recipe[], tag: Tags): Recipe[] {
-    return recipes.filter(r => r.tags.includes(tag));
+    return recipes.filter((r) => r.tags.includes(tag));
   },
 
-  filterExpress(recipes: Recipe[], tempoMax: number = 30) : Recipe[] {
-    return recipes.filter(r => r.tempo_preparo <= tempoMax)
+  filterExpress(recipes: Recipe[], tempoMax: number = 30): Recipe[] {
+    return recipes.filter((r) => r.tempo_preparo <= tempoMax);
   },
 
   getChefChoices(recipes: Recipe[]): Recipe[] {
     const idsDoChef = [0, 12, 16];
-    return recipes.filter(r => idsDoChef.includes(r.id));
-  }
+    return recipes.filter((r) => idsDoChef.includes(r.id));
+  },
+
+  getById: (recipes: Recipe[], id: number): Recipe | undefined => {
+    return recipes.find((r) => r.id === id);
+  },
 };

@@ -1,3 +1,4 @@
+import { useNavigate } from "react-router-dom";
 import type { Recipe } from "../../../domain/types/Recipe";
 
 interface CardProps {
@@ -5,23 +6,36 @@ interface CardProps {
 }
 
 const RecipeCard = ({ recipe }: CardProps) => {
-  const { imagem, caracteristica, titulo, dificuldade, culinaria, tempo_preparo, dica_chefe } = recipe;
+  const {
+    imagem,
+    caracteristica,
+    titulo,
+    dificuldade,
+    culinaria,
+    tempo_preparo,
+    dica_chefe,
+    id,
+  } = recipe;
+
+  const navigate = useNavigate();
 
   return (
-    <div className="group flex flex-col sm:flex-col bg-gray-50 border border-primaria/10 rounded-[2rem] overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 w-full max-w-[365px] sm:max-h-none">
+    <div
+      role="button"
+      tabIndex={0}
+      aria-label={`Ver detalhes de ${titulo}`}
+      onClick={() => navigate(`/menu/${id}`)}
+      onKeyDown={(e) => e.key === "Enter" && navigate(`/menu/${id}`)}
+      className="group flex flex-col sm:flex-col bg-gray-50 border border-primaria/10 rounded-[2rem] overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 w-full max-w-[365px] sm:max-h-none"
+    >
       <div className="relative h-44 sm:h-64 overflow-hidden">
-        <img
-          className="w-full h-full object-cover"
-          src={imagem}
-          alt={titulo}
-        />
+        <img className="w-full h-full object-cover" src={imagem} alt={titulo} />
         <span className="absolute top-3 left-3 px-3 py-1 bg-primaria text-white text-xs  font-bold rounded-full z-10">
           {caracteristica}
         </span>
       </div>
 
       <div className="p-4 sm:p-6 flex flex-col gap-2 sm:gap-4">
-        
         <h2 className="font-bold text-lg sm:text-2xl text-escuro leading-tight line-clamp-1 sm:line-clamp-2 truncate">
           {titulo}
         </h2>
@@ -35,14 +49,20 @@ const RecipeCard = ({ recipe }: CardProps) => {
               {dificuldade}
             </span>
           </div>
-          <span className="text-[10px] text-gray-500 font-medium">⏱ {tempo_preparo}min</span>
+          <span className="text-[10px] text-gray-500 font-medium">
+            ⏱ {tempo_preparo}min
+          </span>
         </div>
 
         <div className="pt-3 border-t border-dashed border-gray-200">
-          <p className="hidden sm:block text-[10px] text-gray-400 font-semibold uppercase mb-1">Dica do Chef</p>
+          <p className="hidden sm:block text-[10px] text-gray-400 font-semibold uppercase mb-1">
+            Dica do Chef
+          </p>
           <p className="text-[11px] sm:text-sm text-gray-600 italic leading-snug line-clamp-2 sm:line-clamp-3">
-             <span className="sm:hidden font-bold not-italic text-gray-400">Dica: </span>
-             "{dica_chefe}"
+            <span className="sm:hidden font-bold not-italic text-gray-400">
+              Dica:{" "}
+            </span>
+            "{dica_chefe}"
           </p>
         </div>
       </div>
