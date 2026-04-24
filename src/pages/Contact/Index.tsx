@@ -15,6 +15,7 @@ const Index = () => {
 
   const onSubmit = (formData: ContactFormData) => {
     console.log("Dados Enviados: ", formData);
+    
     reset()
   }
 

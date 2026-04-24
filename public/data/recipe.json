@@ -6,10 +6,30 @@
     "culinaria": "Italiana",
     "categoria": "Pratos Principais",
     "tempo_preparo": 40,
-    "tags": ["explorar o mundo"],
+    "tags": [
+      "explorar o mundo"
+    ],
     "dica_chefe": "O segredo está no caldo quente e na paciência para mexer o risoto.",
     "dificuldade": "Médio",
-    "imagem": "https://assets.tmecosys.com/image/upload/t_web_rdp_recipe_584x480_1_5x/img/recipe/ras/Assets/22d6dafc-01d4-4109-8fa7-65d8ea44208a/Derivates/ea3088b3-c216-465c-8015-f135a793a622.jpg"
+    "imagem": "https://assets.tmecosys.com/image/upload/t_web_rdp_recipe_584x480_1_5x/img/recipe/ras/Assets/22d6dafc-01d4-4109-8fa7-65d8ea44208a/Derivates/ea3088b3-c216-465c-8015-f135a793a622.jpg",
+    "autor": "Renan Silva",
+    "porcoes": 2,
+    "ingredientes": [
+      "200g arroz arbóreo",
+      "1 lata tomate pelado",
+      "1 burrata",
+      "1L caldo legumes",
+      "Cebola",
+      "Manteiga",
+      "Parmesão"
+    ],
+    "passos": [
+      "Refogue a cebola",
+      "Toste o arroz",
+      "Adicione o tomate",
+      "Coloque o caldo aos poucos mexendo sempre",
+      "Finalize com manteiga, parmesão e a burrata."
+    ]
   },
   {
     "id": 1,
@@ -18,10 +38,29 @@
     "culinaria": "Japonesa",
     "categoria": "Pratos Principais",
     "tempo_preparo": 80,
-    "tags": ["explorar o mundo"],
+    "tags": [
+      "explorar o mundo"
+    ],
     "dica_chefe": "O segredo da cremosidade é o tempo de fervura, deixar ao fogo baixo, para extrair todo o sabor.",
     "dificuldade": "Dificíl",
-    "imagem": "https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_1:1/k%2FPhoto%2FRecipes%2F2024-03-tonkotsu-ramen%2Ftonkotsu-ramen-195"
+    "imagem": "https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_1:1/k%2FPhoto%2FRecipes%2F2024-03-tonkotsu-ramen%2Ftonkotsu-ramen-195",
+    "autor": "Chef Paulo",
+    "porcoes": 1,
+    "ingredientes": [
+      "Macarrão ramen",
+      "500ml caldo porco",
+      "Barriga de porco (Chashu)",
+      "Ovo marinado",
+      "Nori",
+      "Cebolinha"
+    ],
+    "passos": [
+      "Aqueça o caldo",
+      "Cozinha o macarrão",
+      "Monte a base com o tempero",
+      "Adicione o caldo e o macarrão",
+      "Finalize com os toppings."
+    ]
   },
   {
     "id": 2,
@@ -30,10 +69,29 @@
     "culinaria": "Brasileira",
     "categoria": "Pratos Principais",
     "tempo_preparo": 240,
-    "tags": ["Raízes do Brasil"],
+    "tags": [
+      "Raízes do Brasil"
+    ],
     "dica_chefe": "Cozinhar a feijoada lentamente em fogo baixo, para que os sabores se desenvolvam e a carne fique macia.",
     "dificuldade": "Dificíl",
-    "imagem": "https://acarnequeomundoprefere.com.br/uploads/media/image/frimesa-receitas-eisbein-1.jpg"
+    "imagem": "https://acarnequeomundoprefere.com.br/uploads/media/image/frimesa-receitas-eisbein-1.jpg",
+    "autor": "Murilo Ayabe",
+    "porcoes": 6,
+    "ingredientes": [
+      "500g feijão preto",
+      "Carnes salgadas (lombo, seca)",
+      "Paio",
+      "Calabresa",
+      "Louro",
+      "Alho"
+    ],
+    "passos": [
+      "Dessalgue as carnes",
+      "Cozinhe o feijão com as carnes duras",
+      "Adicione os defumados",
+      "Tempere com refogado de alho",
+      "Deixe engrossar o caldo."
+    ]
   },
   {
     "id": 3,
@@ -42,10 +100,30 @@
     "culinaria": "Brasileira",
     "categoria": "Pratos Principais",
     "tempo_preparo": 100,
-    "tags": ["Raízes do Brasil", "Churrasco & Brasa"],
+    "tags": [
+      "Raízes do Brasil",
+      "Churrasco & Brasa"
+    ],
     "dica_chefe": "Temperar o frango de véspera ou pelo menos 4h antes. Iniciar o forno a 220°C por 20 minutos para dourar a pele.",
     "dificuldade": "Médio",
-    "imagem": "https://www.receitasnestle.com.br/sites/default/files/styles/recipe_detail_desktop_new/public/srh_recipes/c8e3ffb7191dfa13f6d77fe58bf27caf.png?itok=LrW86HkP"
+    "imagem": "https://www.receitasnestle.com.br/sites/default/files/styles/recipe_detail_desktop_new/public/srh_recipes/c8e3ffb7191dfa13f6d77fe58bf27caf.png?itok=LrW86HkP",
+    "autor": "Renan Silva",
+    "porcoes": 4,
+    "ingredientes": [
+      "1 frango inteiro",
+      "1kg batatas",
+      "Alho",
+      "Limão",
+      "Ervas finas",
+      "Azeite"
+    ],
+    "passos": [
+      "Tempere o frango",
+      "Corte as batatas em cubos",
+      "Arrume na assadeira",
+      "Cubra com papel alumínio por 40min",
+      "Remova o papel e deixe dourar."
+    ]
   },
   {
     "id": 4,
@@ -54,10 +132,27 @@
     "culinaria": "Italiana",
     "categoria": "Pratos Principais",
     "tempo_preparo": 50,
-    "tags": ["explorar o mundo"],
+    "tags": [
+      "explorar o mundo"
+    ],
     "dica_chefe": "Empanar duas vezes para casquinha grossa e crocante. Fritar em óleo bem quente e apenas gratinar no forno.",
     "dificuldade": "Médio",
-    "imagem": "https://www.estadao.com.br/resizer/v2/ZEIMFVFYV5GABH6YH52MAFRN5A.jpg?quality=80&auth=7ba1eec02078d7d35e0d18afc50a6e3de19c9fbf671835fbda5edbe37998a24f&width=720&height=410&focal=406,339"
+    "imagem": "https://www.estadao.com.br/resizer/v2/ZEIMFVFYV5GABH6YH52MAFRN5A.jpg?quality=80&auth=7ba1eec02078d7d35e0d18afc50a6e3de19c9fbf671835fbda5edbe37998a24f&width=720&height=410&focal=406,339",
+    "autor": "Chef Casa",
+    "porcoes": 2,
+    "ingredientes": [
+      "2 filés de frango",
+      "Ovos",
+      "Farinha de rosca",
+      "Molho tomate",
+      "Mussarela"
+    ],
+    "passos": [
+      "Tempere e empane o frango",
+      "Frite até dourar",
+      "Cubra com molho e queijo",
+      "Leve ao forno para gratinar."
+    ]
   },
   {
     "id": 5,
@@ -66,10 +161,29 @@
     "culinaria": "Japonesa",
     "categoria": "Pratos Principais",
     "tempo_preparo": 25,
-    "tags": ["explorar o mundo", "Express"],
+    "tags": [
+      "explorar o mundo",
+      "Express"
+    ],
     "dica_chefe": "Wok ou panela muito quente, salteando os legumes por apenas 2 minutos para manter o crocante.",
     "dificuldade": "Fácil",
-    "imagem": "https://www.receiteria.com.br/wp-content/uploads/yakisoba-tradicional-de-carne.jpeg"
+    "imagem": "https://www.receiteria.com.br/wp-content/uploads/yakisoba-tradicional-de-carne.jpeg",
+    "autor": "Chef Paulo",
+    "porcoes": 2,
+    "ingredientes": [
+      "Macarrão yakissoba",
+      "300g alcatra",
+      "Acelga",
+      "Brócolis",
+      "Cenoura",
+      "Molho Shoyu"
+    ],
+    "passos": [
+      "Cozinhe o macarrão",
+      "Sele a carne na Wok",
+      "Adicione os legumes",
+      "Misture o macarrão e o molho shoyu."
+    ]
   },
   {
     "id": 6,
@@ -78,10 +192,28 @@
     "culinaria": "Brasileira",
     "categoria": "Pratos Principais",
     "tempo_preparo": 40,
-    "tags": ["Raízes do Brasil"],
+    "tags": [
+      "Raízes do Brasil"
+    ],
     "dica_chefe": "Arroz soltinho feito com menos água, feijão caldoso e bife contra-filé temperado 30 min antes.",
     "dificuldade": "Médio",
-    "imagem": "https://www.correiodamanha.com.br/_midias/jpg/2023/10/11/prato_feito-189218.jpg"
+    "imagem": "https://www.correiodamanha.com.br/_midias/jpg/2023/10/11/prato_feito-189218.jpg",
+    "autor": "Renan Silva",
+    "porcoes": 1,
+    "ingredientes": [
+      "Arroz",
+      "Feijão",
+      "Bife",
+      "Ovo",
+      "Batata frita"
+    ],
+    "passos": [
+      "Prepare o arroz soltinho",
+      "Tempere o feijão",
+      "Grelhe o bife",
+      "Frite o ovo e as batatas",
+      "Monte o prato clássico."
+    ]
   },
   {
     "id": 7,
@@ -90,10 +222,29 @@
     "culinaria": "Italiana",
     "categoria": "Pratos Principais",
     "tempo_preparo": 25,
-    "tags": ["explorar o mundo", "Express"],
+    "tags": [
+      "explorar o mundo",
+      "Express"
+    ],
     "dica_chefe": "Utilizar massa fresca ou seca de qualidade. O molho deve ser feito com manteiga e creme de leite fresco.",
     "dificuldade": "Fácil",
-    "imagem": "https://chefinhanatural.com.br/wp-content/uploads/2020/12/chicken-aflredo-new-16.jpg"
+    "imagem": "https://chefinhanatural.com.br/wp-content/uploads/2020/12/chicken-aflredo-new-16.jpg",
+    "autor": "Chef Casa",
+    "porcoes": 2,
+    "ingredientes": [
+      "250g fettuccine",
+      "Creme de leite fresco",
+      "Manteiga",
+      "Parmesão",
+      "Peito de frango"
+    ],
+    "passos": [
+      "Cozinhe a massa",
+      "Derreta a manteiga com creme de leite",
+      "Adicione o parmesão até encorpar",
+      "Misture a massa",
+      "Sirva com frango grelhado."
+    ]
   },
   {
     "id": 8,
@@ -102,10 +253,27 @@
     "culinaria": "Brasileira",
     "categoria": "Pratos Principais",
     "tempo_preparo": 35,
-    "tags": ["Raízes do Brasil"],
+    "tags": [
+      "Raízes do Brasil"
+    ],
     "dica_chefe": "Tiras de contra-filé seladas rapidamente. Adicionar o creme de leite apenas com fogo desligado.",
     "dificuldade": "Fácil",
-    "imagem": "https://ricksfoodservices.com/wp-content/uploads/2021/08/Strogonoff-de-Carne.png"
+    "imagem": "https://ricksfoodservices.com/wp-content/uploads/2021/08/Strogonoff-de-Carne.png",
+    "autor": "Renan Silva",
+    "porcoes": 3,
+    "ingredientes": [
+      "500g carne",
+      "Creme de leite",
+      "Ketchup",
+      "Mostarda",
+      "Champignon"
+    ],
+    "passos": [
+      "Sele a carne",
+      "Adicione condimentos",
+      "Coloque o champignon",
+      "Desligue o fogo e misture o creme de leite."
+    ]
   },
   {
     "id": 9,
@@ -114,10 +282,28 @@
     "culinaria": "Portuguesa",
     "categoria": "Pratos Principais",
     "tempo_preparo": 45,
-    "tags": ["explorar o mundo", "Mar & Rio"],
+    "tags": [
+      "explorar o mundo",
+      "Mar & Rio"
+    ],
     "dica_chefe": "Dessalgar o bacalhau por 24h. Misturar delicadamente com os ovos mexidos fora do fogo.",
     "dificuldade": "Médio",
-    "imagem": "https://foodandroad.com/wp-content/uploads/2021/04/bacalhau-bras-1.jpg"
+    "imagem": "https://foodandroad.com/wp-content/uploads/2021/04/bacalhau-bras-1.jpg",
+    "autor": "Chef Casa",
+    "porcoes": 3,
+    "ingredientes": [
+      "Bacalhau desfiado",
+      "Batata palha",
+      "Ovos",
+      "Cebola",
+      "Azeitonas"
+    ],
+    "passos": [
+      "Refogue cebola e bacalhau",
+      "Misture a batata palha",
+      "Adicione os ovos batidos mexendo sempre",
+      "Finalize com azeitonas."
+    ]
   },
   {
     "id": 10,
@@ -126,10 +312,27 @@
     "culinaria": "Italiana",
     "categoria": "Pratos Principais",
     "tempo_preparo": 90,
-    "tags": ["explorar o mundo"],
+    "tags": [
+      "explorar o mundo"
+    ],
     "dica_chefe": "Deixar a massa descansar na assadeira por 10 minutos antes de levar ao forno.",
     "dificuldade": "Médio",
-    "imagem": "https://www.estadao.com.br/resizer/v2/RA3IQ33FENGZHP5F37BM4CK7NU.jpg?quality=80&auth=8bc0c2fe6a666fdb5f760d827da51ea77be53270d382ae3620fe64354a90f609&width=720&height=410&smart=true"
+    "imagem": "https://www.estadao.com.br/resizer/v2/RA3IQ33FENGZHP5F37BM4CK7NU.jpg?quality=80&auth=8bc0c2fe6a666fdb5f760d827da51ea77be53270d382ae3620fe64354a90f609&width=720&height=410&smart=true",
+    "autor": "Chef Casa",
+    "porcoes": 4,
+    "ingredientes": [
+      "Massa lasanha",
+      "Carne moída",
+      "Molho tomate",
+      "Presunto",
+      "Mussarela"
+    ],
+    "passos": [
+      "Prepare o molho bolonhesa",
+      "Monte camadas: molho, massa, presunto e queijo",
+      "Finalize com queijo",
+      "Leve ao forno por 30min."
+    ]
   },
   {
     "id": 11,
@@ -138,10 +341,28 @@
     "culinaria": "Baiana",
     "categoria": "Pratos Principais",
     "tempo_preparo": 50,
-    "tags": ["Raízes do Brasil", "Mar & Rio"],
+    "tags": [
+      "Raízes do Brasil",
+      "Mar & Rio"
+    ],
     "dica_chefe": "Usar panela de barro se possível. Dendê e leite de coco sem deixar ferver forte.",
     "dificuldade": "Médio",
-    "imagem": "https://www.diadepeixe.com.br/extranet/thumbnail/crop/550x360/Receita/moqueca_de_tilapia_1688388658865.webp"
+    "imagem": "https://www.diadepeixe.com.br/extranet/thumbnail/crop/550x360/Receita/moqueca_de_tilapia_1688388658865.webp",
+    "autor": "Chef Murilo",
+    "porcoes": 4,
+    "ingredientes": [
+      "Postas de peixe",
+      "Leite de coco",
+      "Azeite de dendê",
+      "Pimentões",
+      "Coentro"
+    ],
+    "passos": [
+      "Refogue os vegetais",
+      "Arrume o peixe por cima",
+      "Adicione leite de coco e dendê",
+      "Cozinhe por 15min sem mexer."
+    ]
   },
   {
     "id": 12,
@@ -150,10 +371,27 @@
     "culinaria": "Mexicana",
     "categoria": "Pratos Principais",
     "tempo_preparo": 30,
-    "tags": ["explorar o mundo", "Express"],
+    "tags": [
+      "explorar o mundo",
+      "Express"
+    ],
     "dica_chefe": "Tortilhas de milho aquecidas na chapa seca. Carne moída refogada com cominho e páprica.",
     "dificuldade": "Fácil",
-    "imagem": "https://www.estadao.com.br/resizer/qNbonqIBRC9XxWTHNFSAPM-Zoic=/arc-anglerfish-arc2-prod-estadao/public/FP4PEIKKPVFV3JPHMSJCTVM2GI.jpg"
+    "imagem": "https://www.estadao.com.br/resizer/qNbonqIBRC9XxWTHNFSAPM-Zoic=/arc-anglerfish-arc2-prod-estadao/public/FP4PEIKKPVFV3JPHMSJCTVM2GI.jpg",
+    "autor": "Chef Casa",
+    "porcoes": 2,
+    "ingredientes": [
+      "Tortilhas milho",
+      "Carne porco marinada",
+      "Abacaxi",
+      "Cebola",
+      "Coentro"
+    ],
+    "passos": [
+      "Grelhe a carne fatiada",
+      "Aqueça as tortilhas",
+      "Monte com carne, abacaxi picado e temperos."
+    ]
   },
   {
     "id": 13,
@@ -162,10 +400,27 @@
     "culinaria": "Nordestina",
     "categoria": "Pratos Principais",
     "tempo_preparo": 60,
-    "tags": ["Raízes do Brasil"],
+    "tags": [
+      "Raízes do Brasil"
+    ],
     "dica_chefe": "Mandioca cozida e amassada com manteiga enquanto quente para purê liso.",
     "dificuldade": "Médio",
-    "imagem": "https://cdn0.tudoreceitas.com/pt/posts/4/5/1/escondidinho_de_carne_seca_154_orig.jpg"
+    "imagem": "https://cdn0.tudoreceitas.com/pt/posts/4/5/1/escondidinho_de_carne_seca_154_orig.jpg",
+    "autor": "Renan Silva",
+    "porcoes": 4,
+    "ingredientes": [
+      "Mandioca",
+      "Carne seca desfiada",
+      "Manteiga",
+      "Leite",
+      "Queijo coalho"
+    ],
+    "passos": [
+      "Faça um purê de mandioca",
+      "Refogue a carne seca",
+      "Em um refratário, coloque carne e cubra com purê",
+      "Gratine com queijo."
+    ]
   },
   {
     "id": 14,
@@ -174,10 +429,28 @@
     "culinaria": "Italiana",
     "categoria": "Pratos Principais",
     "tempo_preparo": 60,
-    "tags": ["explorar o mundo"],
+    "tags": [
+      "explorar o mundo"
+    ],
     "dica_chefe": "Assar as batatas em vez de cozinhar para menos ficar menos úmido.",
     "dificuldade": "Médio",
-    "imagem": "https://www.receitasdemae.com.br/wp-content/uploads/2016/02/Nhoque-de-batata-ao-sugo.jpg"
+    "imagem": "https://www.receitasdemae.com.br/wp-content/uploads/2016/02/Nhoque-de-batata-ao-sugo.jpg",
+    "autor": "Chef Casa",
+    "porcoes": 3,
+    "ingredientes": [
+      "1kg batata",
+      "Farinha trigo",
+      "Ovo",
+      "Sal",
+      "Molho sugo"
+    ],
+    "passos": [
+      "Cozinhe e amasse as batatas",
+      "Misture ovo e farinha até dar ponto",
+      "Modele e corte",
+      "Cozinhe em água fervente",
+      "Sirva com molho."
+    ]
   },
   {
     "id": 15,
@@ -186,10 +459,27 @@
     "culinaria": "Brasileira",
     "categoria": "Pratos Principais",
     "tempo_preparo": 30,
-    "tags": ["Raízes do Brasil", "Express"],
+    "tags": [
+      "Raízes do Brasil",
+      "Express"
+    ],
     "dica_chefe": "Pressionar bem a farinha de rosca para não soltar na fritura.",
     "dificuldade": "Fácil",
-    "imagem": "https://www.receiteria.com.br/wp-content/uploads/bife-a-milanesa.jpeg"
+    "imagem": "https://www.receiteria.com.br/wp-content/uploads/bife-a-milanesa.jpeg",
+    "autor": "Renan Silva",
+    "porcoes": 2,
+    "ingredientes": [
+      "Bifes",
+      "Ovo",
+      "Farinha rosca",
+      "Sal",
+      "Óleo"
+    ],
+    "passos": [
+      "Tempere os bifes",
+      "Passe no ovo e na farinha de rosca",
+      "Frite em óleo quente até dourar."
+    ]
   },
   {
     "id": 16,
@@ -198,10 +488,29 @@
     "culinaria": "Tailandesa",
     "categoria": "Pratos Principais",
     "tempo_preparo": 25,
-    "tags": ["explorar o mundo", "Express"],
+    "tags": [
+      "explorar o mundo",
+      "Express"
+    ],
     "dica_chefe": "Molho à base de tamarindo equilibrando azedo e doce. Amendoim moído no final.",
     "dificuldade": "Médio",
-    "imagem": "https://www.recipetineats.com/tachyon/2020/01/Chicken-Pad-Thai_9-SQ.jpg"
+    "imagem": "https://www.recipetineats.com/tachyon/2020/01/Chicken-Pad-Thai_9-SQ.jpg",
+    "autor": "Chef Paulo",
+    "porcoes": 2,
+    "ingredientes": [
+      "Macarrão arroz",
+      "Camarão",
+      "Tofu",
+      "Brotos feijão",
+      "Amendoim",
+      "Molho tamarindo"
+    ],
+    "passos": [
+      "Hidrate o macarrão",
+      "Frite o tofu e camarão",
+      "Adicione macarrão e molho",
+      "Misture brotos e finalize com amendoim."
+    ]
   },
   {
     "id": 17,
@@ -210,10 +519,28 @@
     "culinaria": "Baiana",
     "categoria": "Pratos Principais",
     "tempo_preparo": 45,
-    "tags": ["Raízes do Brasil", "Mar & Rio"],
+    "tags": [
+      "Raízes do Brasil",
+      "Mar & Rio"
+    ],
     "dica_chefe": "Cozinhar a mandioca até desmanchar e bater com dendê até ficar laranja intenso.",
     "dificuldade": "Médio",
-    "imagem": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj2CGm30Ot8NI1Hzc5BDKPSj-UQuKjtBhPui6kMEJacYdv7sEGETABvoxsuPm0x3QiWDu4efZOGxIgKdxmb65-GuQRhv1XLn4ibGpwKQkPJcFf4PCqvy8Vv5rSAlr_KWrcvptAtNS6r13yokqBmEIUZpZsmsXal0D9QtVI4Z9keYkXMROMo_ZN9ngep/s2000/bobo-de-camar%C3%A3o-3.jpg"
+    "imagem": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj2CGm30Ot8NI1Hzc5BDKPSj-UQuKjtBhPui6kMEJacYdv7sEGETABvoxsuPm0x3QiWDu4efZOGxIgKdxmb65-GuQRhv1XLn4ibGpwKQkPJcFf4PCqvy8Vv5rSAlr_KWrcvptAtNS6r13yokqBmEIUZpZsmsXal0D9QtVI4Z9keYkXMROMo_ZN9ngep/s2000/bobo-de-camar%C3%A3o-3.jpg",
+    "autor": "Chef Murilo",
+    "porcoes": 4,
+    "ingredientes": [
+      "Camarão",
+      "Mandioca",
+      "Leite de coco",
+      "Dendê",
+      "Tomate"
+    ],
+    "passos": [
+      "Cozinhe e bata a mandioca",
+      "Refogue os camarões",
+      "Misture o creme de mandioca, leite de coco e dendê",
+      "Ferva por 5min."
+    ]
   },
   {
     "id": 18,
@@ -222,10 +549,29 @@
     "culinaria": "Italiana",
     "categoria": "Pratos Principais",
     "tempo_preparo": 35,
-    "tags": ["explorar o mundo", "Plant Based"],
+    "tags": [
+      "explorar o mundo",
+      "Plant Based"
+    ],
     "dica_chefe": "Hidratar cogumelos shitake no caldo quente e usar essa água no cozimento.",
     "dificuldade": "Médio",
-    "imagem": "https://www.pingodoce.pt/wp-content/uploads/2021/07/risotto-de-cogumelos-com-caldo-de-espargos.jpeg"
+    "imagem": "https://www.pingodoce.pt/wp-content/uploads/2021/07/risotto-de-cogumelos-com-caldo-de-espargos.jpeg",
+    "autor": "Renan Silva",
+    "porcoes": 2,
+    "ingredientes": [
+      "Arroz arbóreo",
+      "Cogumelos frescos",
+      "Vinho branco",
+      "Caldo legumes",
+      "Parmesão"
+    ],
+    "passos": [
+      "Refogue cogumelos",
+      "Toste o arroz",
+      "Deglaceie com vinho",
+      "Adicione caldo aos poucos",
+      "Finalize com parmesão."
+    ]
   },
   {
     "id": 19,
@@ -234,10 +580,28 @@
     "culinaria": "Italiana",
     "categoria": "Pratos Principais",
     "tempo_preparo": 120,
-    "tags": ["explorar o mundo", "Churrasco & Brasa"],
+    "tags": [
+      "explorar o mundo",
+      "Churrasco & Brasa"
+    ],
     "dica_chefe": "Polenta mexida por 40 min em fogo baixo. Costela cozida até desfiar.",
     "dificuldade": "Dificíl",
-    "imagem": "https://cdn.oceanserver.com.br/lojas/naturallis/uploads_produto/whatsapp-image-2025-01-30-at-194748jpeg-679cb5080b33b.jpeg"
+    "imagem": "https://cdn.oceanserver.com.br/lojas/naturallis/uploads_produto/whatsapp-image-2025-01-30-at-194748jpeg-679cb5080b33b.jpeg",
+    "autor": "Chef Casa",
+    "porcoes": 4,
+    "ingredientes": [
+      "Fubá",
+      "Costela bovina",
+      "Vinho tinto",
+      "Molho tomate",
+      "Manteiga"
+    ],
+    "passos": [
+      "Cozinhe a costela até desfiar",
+      "Faça o ragu com vinho e tomate",
+      "Prepare a polenta cremosa",
+      "Sirva o ragu sobre a polenta."
+    ]
   },
   {
     "id": 20,
@@ -246,10 +610,29 @@
     "culinaria": "Grega",
     "categoria": "Saladas",
     "tempo_preparo": 15,
-    "tags": ["explorar o mundo", "Plant Based"],
+    "tags": [
+      "explorar o mundo",
+      "Plant Based"
+    ],
     "dica_chefe": "A combinação de tomates, pepino, azeitonas e queijo feta cria um sabor marcante.",
     "dificuldade": "Fácil",
-    "imagem": "https://www.estadao.com.br/resizer/xgbdreke8bix84U4ILBWMO_KuX0=/arc-anglerfish-arc2-prod-estadao/public/3K45SRWMQBAMHEOCORS3HY2W5I.jpg"
+    "imagem": "https://www.estadao.com.br/resizer/xgbdreke8bix84U4ILBWMO_KuX0=/arc-anglerfish-arc2-prod-estadao/public/3K45SRWMQBAMHEOCORS3HY2W5I.jpg",
+    "autor": "Renan Silva",
+    "porcoes": 2,
+    "ingredientes": [
+      "Pepino",
+      "Tomate",
+      "Cebola roxa",
+      "Azeitonas pretas",
+      "Queijo Feta",
+      "Azeite"
+    ],
+    "passos": [
+      "Corte os vegetais em cubos",
+      "Misture em uma tigela",
+      "Adicione o queijo e azeitonas",
+      "Tempere com azeite e orégano."
+    ]
   },
   {
     "id": 21,
@@ -258,10 +641,27 @@
     "culinaria": "Italiana",
     "categoria": "Saladas",
     "tempo_preparo": 15,
-    "tags": ["explorar o mundo", "Express"],
+    "tags": [
+      "explorar o mundo",
+      "Express"
+    ],
     "dica_chefe": "Folhas de alface romana grelhadas levemente para caramelizar sem murchar demais.",
     "dificuldade": "Fácil",
-    "imagem": "https://minhasreceitinhas.com.br/wp-content/uploads/2025/03/salada-caesar-para-4-pessoas.jpg"
+    "imagem": "https://minhasreceitinhas.com.br/wp-content/uploads/2025/03/salada-caesar-para-4-pessoas.jpg",
+    "autor": "Chef Casa",
+    "porcoes": 2,
+    "ingredientes": [
+      "Alface romana",
+      "Croutons",
+      "Parmesão",
+      "Molho Caesar",
+      "Frango grelhado"
+    ],
+    "passos": [
+      "Lave e rasgue o alface",
+      "Adicione o frango e croutons",
+      "Regue com o molho e finalize com parmesão."
+    ]
   },
   {
     "id": 22,
@@ -270,10 +670,28 @@
     "culinaria": "Italiana",
     "categoria": "Saladas",
     "tempo_preparo": 10,
-    "tags": ["explorar o mundo", "Express", "Plant Based"],
+    "tags": [
+      "explorar o mundo",
+      "Express",
+      "Plant Based"
+    ],
     "dica_chefe": "Utilizar mussarela de búfala e tomates italianos maduros.",
     "dificuldade": "Fácil",
-    "imagem": "https://guiadacozinha.com.br/wp-content/uploads/2005/01/salada-caprese.webp"
+    "imagem": "https://guiadacozinha.com.br/wp-content/uploads/2005/01/salada-caprese.webp",
+    "autor": "Chef Casa",
+    "porcoes": 2,
+    "ingredientes": [
+      "Tomate",
+      "Mussarela búfala",
+      "Manjericão",
+      "Azeite",
+      "Sal"
+    ],
+    "passos": [
+      "Fatie o tomate e o queijo",
+      "Alterne as fatias em um prato",
+      "Coloque manjericão e regue com azeite."
+    ]
   },
   {
     "id": 23,
@@ -282,10 +700,30 @@
     "culinaria": "Libanesa",
     "categoria": "Saladas",
     "tempo_preparo": 20,
-    "tags": ["explorar o mundo", "Express", "Plant Based"],
+    "tags": [
+      "explorar o mundo",
+      "Express",
+      "Plant Based"
+    ],
     "dica_chefe": "Escaldar o trigo apenas com água quente e tampar, nunca cozinhar.",
     "dificuldade": "Fácil",
-    "imagem": "https://pt.petitchef.com/imgupl/recipe/tabule-libanes-salada-facil-e-muito-refrescante--462533p731554.webp"
+    "imagem": "https://pt.petitchef.com/imgupl/recipe/tabule-libanes-salada-facil-e-muito-refrescante--462533p731554.webp",
+    "autor": "Chef Paulo",
+    "porcoes": 4,
+    "ingredientes": [
+      "Trigo para quibe",
+      "Salsinha",
+      "Tomate",
+      "Pepino",
+      "Hortelã",
+      "Limão"
+    ],
+    "passos": [
+      "Hidrate o trigo",
+      "Pique os vegetais bem miúdos",
+      "Misture tudo",
+      "Tempere com limão, azeite e sal."
+    ]
   },
   {
     "id": 24,
@@ -294,10 +732,29 @@
     "culinaria": "Americana",
     "categoria": "Saladas",
     "tempo_preparo": 15,
-    "tags": ["explorar o mundo", "Express", "Plant Based"],
+    "tags": [
+      "explorar o mundo",
+      "Express",
+      "Plant Based"
+    ],
     "dica_chefe": "Maçãs verdes regadas com limão para não oxidar. Nozes torradas na hora.",
     "dificuldade": "Fácil",
-    "imagem": "https://catracalivre.com.br/wp-content/uploads/2023/07/salada-waldorf.jpg"
+    "imagem": "https://catracalivre.com.br/wp-content/uploads/2023/07/salada-waldorf.jpg",
+    "autor": "Chef Casa",
+    "porcoes": 2,
+    "ingredientes": [
+      "Maçã verde",
+      "Aipo",
+      "Nozes",
+      "Maionese",
+      "Uvas"
+    ],
+    "passos": [
+      "Corte a maçã e aipo",
+      "Misture com a maionese",
+      "Adicione nozes e uvas",
+      "Sirva gelado."
+    ]
   },
   {
     "id": 25,
@@ -306,10 +763,28 @@
     "culinaria": "Francesa",
     "categoria": "Saladas",
     "tempo_preparo": 25,
-    "tags": ["explorar o mundo", "Mar & Rio", "Express"],
+    "tags": [
+      "explorar o mundo",
+      "Mar & Rio",
+      "Express"
+    ],
     "dica_chefe": "Atum fresco grelhado em vez de enlatado eleva o prato.",
     "dificuldade": "Médio",
-    "imagem": "https://www.estadao.com.br/resizer/v2/Z4NQNFJ44NE3XDKLDEYAJDJRB4.JPG?quality=80&auth=b892ff74d6c1a9499adee6dc9fa1a422349cd3f9b98eb932b84aedd6ac1796d9&width=1200"
+    "imagem": "https://www.estadao.com.br/resizer/v2/Z4NQNFJ44NE3XDKLDEYAJDJRB4.JPG?quality=80&auth=b892ff74d6c1a9499adee6dc9fa1a422349cd3f9b98eb932b84aedd6ac1796d9&width=1200",
+    "autor": "Chef Casa",
+    "porcoes": 2,
+    "ingredientes": [
+      "Atum",
+      "Vagem",
+      "Ovos cozidos",
+      "Batatas",
+      "Folhas verdes"
+    ],
+    "passos": [
+      "Cozinhe vagem, batata e ovos",
+      "Arrume sobre as folhas",
+      "Adicione o atum e tempere com vinagrete."
+    ]
   },
   {
     "id": 26,
@@ -318,10 +793,28 @@
     "culinaria": "Brasileira",
     "categoria": "Saladas",
     "tempo_preparo": 30,
-    "tags": ["Raízes do Brasil", "Plant Based", "Express"],
+    "tags": [
+      "Raízes do Brasil",
+      "Plant Based",
+      "Express"
+    ],
     "dica_chefe": "Lavar a quinoa em água corrente antes de cozinhar para remover a saponina.",
     "dificuldade": "Fácil",
-    "imagem": "https://cozinha365.com.br/wp-content/uploads/2025/02/Salada-de-Quinoa-com-Legumes-Assados-S.webp"
+    "imagem": "https://cozinha365.com.br/wp-content/uploads/2025/02/Salada-de-Quinoa-com-Legumes-Assados-S.webp",
+    "autor": "Renan Silva",
+    "porcoes": 2,
+    "ingredientes": [
+      "Quinoa cozida",
+      "Abobrinha",
+      "Cenoura",
+      "Pimentão",
+      "Limão"
+    ],
+    "passos": [
+      "Refogue levemente os legumes",
+      "Misture com a quinoa",
+      "Tempere com limão e azeite."
+    ]
   },
   {
     "id": 27,
@@ -330,10 +823,28 @@
     "culinaria": "Brasileira",
     "categoria": "Saladas",
     "tempo_preparo": 12,
-    "tags": ["Raízes do Brasil", "Plant Based", "Express"],
+    "tags": [
+      "Raízes do Brasil",
+      "Plant Based",
+      "Express"
+    ],
     "dica_chefe": "Mix de folhas variadas para contraste de sabores. Redução de balsâmico para finalizar.",
     "dificuldade": "Fácil",
-    "imagem": "https://www.ajinomotofoodservice.com.br/wp/content/uploads/receitas/salada-de-mix-de-folhas-morango-nozes-e-balsamico-1920x1080-26-01-2024-oxfkz.webp"
+    "imagem": "https://www.ajinomotofoodservice.com.br/wp/content/uploads/receitas/salada-de-mix-de-folhas-morango-nozes-e-balsamico-1920x1080-26-01-2024-oxfkz.webp",
+    "autor": "Renan Silva",
+    "porcoes": 2,
+    "ingredientes": [
+      "Mix de folhas",
+      "Morangos",
+      "Nozes",
+      "Queijo gorgonzola",
+      "Balsâmico"
+    ],
+    "passos": [
+      "Arrume as folhas",
+      "Adicione morangos fatiados e nozes",
+      "Finalize com queijo e redução de balsâmico."
+    ]
   },
   {
     "id": 28,
@@ -342,10 +853,28 @@
     "culinaria": "Mediterrânea",
     "categoria": "Saladas",
     "tempo_preparo": 15,
-    "tags": ["explorar o mundo", "Mar & Rio", "Express"],
+    "tags": [
+      "explorar o mundo",
+      "Mar & Rio",
+      "Express"
+    ],
     "dica_chefe": "Grão de bico cozido al dente. Cebola roxa em conserva para perder a ardência.",
     "dificuldade": "Fácil",
-    "imagem": "https://www.receiteria.com.br/wp-content/uploads/salada-de-grao-de-bico-com-atum.jpg"
+    "imagem": "https://www.receiteria.com.br/wp-content/uploads/salada-de-grao-de-bico-com-atum.jpg",
+    "autor": "Chef Casa",
+    "porcoes": 3,
+    "ingredientes": [
+      "Grão de bico cozido",
+      "Atum enlatado",
+      "Cebola roxa",
+      "Salsinha",
+      "Azeite"
+    ],
+    "passos": [
+      "Escorra o grão de bico",
+      "Misture o atum e cebola picada",
+      "Tempere e sirva."
+    ]
   },
   {
     "id": 29,
@@ -354,10 +883,28 @@
     "culinaria": "Libanesa",
     "categoria": "Saladas",
     "tempo_preparo": 20,
-    "tags": ["explorar o mundo", "Plant Based", "Express"],
+    "tags": [
+      "explorar o mundo",
+      "Plant Based",
+      "Express"
+    ],
     "dica_chefe": "O segredo está no molho de sumac, que traz um toque cítrico e ácido.",
     "dificuldade": "Fácil",
-    "imagem": "https://www.estadao.com.br/resizer/v2/UT3KQB2S5VAGRGKELBZ73QSENA.jpeg?quality=80&auth=555d193eae8e1154fe8e9ebfb2671fbb759cdf0e664b23b5c6603ff36517c349&width=1200"
+    "imagem": "https://www.estadao.com.br/resizer/v2/UT3KQB2S5VAGRGKELBZ73QSENA.jpeg?quality=80&auth=555d193eae8e1154fe8e9ebfb2671fbb759cdf0e664b23b5c6603ff36517c349&width=1200",
+    "autor": "Chef Paulo",
+    "porcoes": 3,
+    "ingredientes": [
+      "Pão sírio torrado",
+      "Rabanete",
+      "Tomate",
+      "Alface",
+      "Sumac"
+    ],
+    "passos": [
+      "Pique os vegetais",
+      "Quebre o pão torrado por cima",
+      "Tempere com azeite, limão e sumac."
+    ]
   },
   {
     "id": 30,
@@ -366,10 +913,27 @@
     "culinaria": "Brasileira",
     "categoria": "Sobremesas",
     "tempo_preparo": 30,
-    "tags": ["Raízes do Brasil", "Express"],
+    "tags": [
+      "Raízes do Brasil",
+      "Express"
+    ],
     "dica_chefe": "Cozinhar em fogo baixo até desgrudar do fundo da panela.",
     "dificuldade": "Fácil",
-    "imagem": "https://guiadacozinha.com.br/wp-content/uploads/2018/10/brigadeiro-tradicional.jpg"
+    "imagem": "https://guiadacozinha.com.br/wp-content/uploads/2018/10/brigadeiro-tradicional.jpg",
+    "autor": "Renan Silva",
+    "porcoes": 20,
+    "ingredientes": [
+      "Leite condensado",
+      "Cacau",
+      "Manteiga",
+      "Granulado"
+    ],
+    "passos": [
+      "Misture tudo na panela",
+      "Cozinhe até desgrudar do fundo",
+      "Deixe esfriar",
+      "Enrole e passe no granulado."
+    ]
   },
   {
     "id": 31,
@@ -378,10 +942,26 @@
     "culinaria": "Brasileira",
     "categoria": "Sobremesas",
     "tempo_preparo": 90,
-    "tags": ["Raízes do Brasil"],
+    "tags": [
+      "Raízes do Brasil"
+    ],
     "dica_chefe": "Cozinhar em banho-maria com a forma bem vedada.",
     "dificuldade": "Médio",
-    "imagem": "https://lodivino.com.br/images/receitas/pudim-de-leite-condensado.jpg"
+    "imagem": "https://lodivino.com.br/images/receitas/pudim-de-leite-condensado.jpg",
+    "autor": "Renan Silva",
+    "porcoes": 8,
+    "ingredientes": [
+      "Leite condensado",
+      "Leite",
+      "3 ovos",
+      "Açúcar (calda)"
+    ],
+    "passos": [
+      "Bata os ingredientes no liquidificador",
+      "Faça a calda de caramelo",
+      "Cozinhe em banho-maria por 1h",
+      "Gele por 4h antes de desenformar."
+    ]
   },
   {
     "id": 32,
@@ -390,10 +970,25 @@
     "culinaria": "Brasileira",
     "categoria": "Sobremesas",
     "tempo_preparo": 20,
-    "tags": ["Raízes do Brasil", "Express"],
+    "tags": [
+      "Raízes do Brasil",
+      "Express"
+    ],
     "dica_chefe": "Polpa natural deixa o sabor mais intenso que suco concentrado.",
     "dificuldade": "Fácil",
-    "imagem": "https://static.itdg.com.br/images/640-400/8231acb174ba2e6a4b4a61145e48eea7/249008-shutterstock-1907121220.jpg"
+    "imagem": "https://static.itdg.com.br/images/640-400/8231acb174ba2e6a4b4a61145e48eea7/249008-shutterstock-1907121220.jpg",
+    "autor": "Renan Silva",
+    "porcoes": 4,
+    "ingredientes": [
+      "Leite condensado",
+      "Creme de leite",
+      "Suco de maracujá concentrado"
+    ],
+    "passos": [
+      "Bata tudo no liquidificador",
+      "Coloque em taças",
+      "Gele até ficar firme."
+    ]
   },
   {
     "id": 33,
@@ -402,10 +997,26 @@
     "culinaria": "Nordestina",
     "categoria": "Sobremesas",
     "tempo_preparo": 40,
-    "tags": ["Raízes do Brasil"],
+    "tags": [
+      "Raízes do Brasil"
+    ],
     "dica_chefe": "Nunca abrir o forno durante o cozimento.",
     "dificuldade": "Médio",
-    "imagem": "https://guiadacozinha.com.br/wp-content/uploads/2018/05/quindimdeaipim.jpg"
+    "imagem": "https://guiadacozinha.com.br/wp-content/uploads/2018/05/quindimdeaipim.jpg",
+    "autor": "Chef Murilo",
+    "porcoes": 10,
+    "ingredientes": [
+      "10 gemas",
+      "200g coco ralado",
+      "200g açúcar",
+      "Manteiga"
+    ],
+    "passos": [
+      "Peneire as gemas",
+      "Misture açúcar e coco",
+      "Coloque em forminhas untadas",
+      "Assar em banho-maria até dourar."
+    ]
   },
   {
     "id": 34,
@@ -414,10 +1025,27 @@
     "culinaria": "Brasileira",
     "categoria": "Sobremesas",
     "tempo_preparo": 35,
-    "tags": ["Raízes do Brasil"],
+    "tags": [
+      "Raízes do Brasil"
+    ],
     "dica_chefe": "Molhar os biscoitos no leite morno por apenas 2 segundos.",
     "dificuldade": "Fácil",
-    "imagem": "https://guiadacozinha.com.br/wp-content/uploads/2019/10/pave-brigadeiro-chocolate-amargo.jpg"
+    "imagem": "https://guiadacozinha.com.br/wp-content/uploads/2019/10/pave-brigadeiro-chocolate-amargo.jpg",
+    "autor": "Renan Silva",
+    "porcoes": 6,
+    "ingredientes": [
+      "Biscuits",
+      "Leite",
+      "Chocolate em pó",
+      "Creme de leite",
+      "Maisena"
+    ],
+    "passos": [
+      "Faça um creme de chocolate",
+      "Molhe os biscoitos no leite",
+      "Alterne camadas de creme e biscoito",
+      "Finalize com chocolate ralado."
+    ]
   },
   {
     "id": 35,
@@ -426,10 +1054,26 @@
     "culinaria": "Brasileira",
     "categoria": "Sobremesas",
     "tempo_preparo": 50,
-    "tags": ["Raízes do Brasil"],
+    "tags": [
+      "Raízes do Brasil"
+    ],
     "dica_chefe": "Ralar apenas a parte verde do limão; a parte branca amarga.",
     "dificuldade": "Médio",
-    "imagem": "https://www.receitasnestle.com.br/sites/default/files/srh_recipes/1d22d96039f98608bc9338debb1b4579.jpg"
+    "imagem": "https://www.receitasnestle.com.br/sites/default/files/srh_recipes/1d22d96039f98608bc9338debb1b4579.jpg",
+    "autor": "Renan Silva",
+    "porcoes": 8,
+    "ingredientes": [
+      "Massa podre",
+      "Leite condensado",
+      "Suco de limão",
+      "Claras (merengue)"
+    ],
+    "passos": [
+      "Asse a massa",
+      "Misture leite condensado e limão",
+      "Recheie a massa",
+      "Cubra com merengue e doure."
+    ]
   },
   {
     "id": 36,
@@ -438,10 +1082,26 @@
     "culinaria": "Brasileira",
     "categoria": "Sobremesas",
     "tempo_preparo": 25,
-    "tags": ["Raízes do Brasil", "Express"],
+    "tags": [
+      "Raízes do Brasil",
+      "Express"
+    ],
     "dica_chefe": "Passar no coco ralado úmido imediatamente após enrolar.",
     "dificuldade": "Fácil",
-    "imagem": "https://i.panelinha.com.br/i1/bk-5745-beijinhoreceita.webp"
+    "imagem": "https://i.panelinha.com.br/i1/bk-5745-beijinhoreceita.webp",
+    "autor": "Renan Silva",
+    "porcoes": 20,
+    "ingredientes": [
+      "Leite condensado",
+      "Coco ralado",
+      "Manteiga",
+      "Cravos"
+    ],
+    "passos": [
+      "Cozinhe até desgrudar da panela",
+      "Deixe esfriar",
+      "Enrole e passe no coco."
+    ]
   },
   {
     "id": 37,
@@ -450,10 +1110,26 @@
     "culinaria": "Brasileira",
     "categoria": "Sobremesas",
     "tempo_preparo": 70,
-    "tags": ["Raízes do Brasil"],
+    "tags": [
+      "Raízes do Brasil"
+    ],
     "dica_chefe": "Deixar o milho de canjica de molho por 8 horas antes de cozinhar.",
     "dificuldade": "Médio",
-    "imagem": "https://saboremmovimento.com.br/wp-content/uploads/2025/04/canjica-cremosa-500x500.jpg"
+    "imagem": "https://saboremmovimento.com.br/wp-content/uploads/2025/04/canjica-cremosa-500x500.jpg",
+    "autor": "Chef Casa",
+    "porcoes": 6,
+    "ingredientes": [
+      "Milho canjica",
+      "Leite",
+      "Leite condensado",
+      "Canela",
+      "Amendoim"
+    ],
+    "passos": [
+      "Cozinhe o milho na pressão",
+      "Adicione leites e especiarias",
+      "Cozinhe até engrossar."
+    ]
   },
   {
     "id": 38,
@@ -462,10 +1138,25 @@
     "culinaria": "Brasileira",
     "categoria": "Sobremesas",
     "tempo_preparo": 45,
-    "tags": ["Raízes do Brasil"],
+    "tags": [
+      "Raízes do Brasil"
+    ],
     "dica_chefe": "Utilizar canela em pau durante o cozimento para perfumar sem escurecer.",
     "dificuldade": "Fácil",
-    "imagem": "https://teamodoce.com.br/wp-content/uploads/2025/05/arroz-doce-com-coco-queimado.webp"
+    "imagem": "https://teamodoce.com.br/wp-content/uploads/2025/05/arroz-doce-com-coco-queimado.webp",
+    "autor": "Chef Casa",
+    "porcoes": 4,
+    "ingredientes": [
+      "Arroz",
+      "Leite",
+      "Açúcar",
+      "Canela em pau"
+    ],
+    "passos": [
+      "Cozinhe o arroz no leite",
+      "Adicione açúcar e canela",
+      "Cozinhe em fogo baixo até ficar cremoso."
+    ]
   },
   {
     "id": 39,
@@ -474,10 +1165,26 @@
     "culinaria": "Baiana",
     "categoria": "Sobremesas",
     "tempo_preparo": 30,
-    "tags": ["Raízes do Brasil", "Express"],
+    "tags": [
+      "Raízes do Brasil",
+      "Express"
+    ],
     "dica_chefe": "Usar coco ralado fresco, não flocos secos.",
     "dificuldade": "Fácil",
-    "imagem": "https://www.sabornamesa.com.br/media/k2/items/cache/cdbf366d9f51982d2973fefc5c0ec9b1_XL.jpg"
+    "imagem": "https://www.sabornamesa.com.br/media/k2/items/cache/cdbf366d9f51982d2973fefc5c0ec9b1_XL.jpg",
+    "autor": "Chef Murilo",
+    "porcoes": 10,
+    "ingredientes": [
+      "Coco fresco",
+      "Açúcar",
+      "Água"
+    ],
+    "passos": [
+      "Faça uma calda com água e açúcar",
+      "Adicione o coco",
+      "Mexa até secar e desgrudar",
+      "Modele com colher."
+    ]
   },
   {
     "id": 40,
@@ -486,10 +1193,25 @@
     "culinaria": "Brasileira",
     "categoria": "Sobremesas",
     "tempo_preparo": 240,
-    "tags": ["Raízes do Brasil"],
+    "tags": [
+      "Raízes do Brasil"
+    ],
     "dica_chefe": "A calda deve ficar em consistência de xarope.",
     "dificuldade": "Médio",
-    "imagem": "https://www.seara.com.br/wp-content/uploads/2025/09/mobile-manjar.jpg"
+    "imagem": "https://www.seara.com.br/wp-content/uploads/2025/09/mobile-manjar.jpg",
+    "autor": "Chef Casa",
+    "porcoes": 8,
+    "ingredientes": [
+      "Leite",
+      "Leite de coco",
+      "Amido de milho",
+      "Ameixas em calda"
+    ],
+    "passos": [
+      "Cozinhe os leites com amido até engrossar",
+      "Coloque na forma e gele",
+      "Sirva com calda de ameixa."
+    ]
   },
   {
     "id": 41,
@@ -498,10 +1220,26 @@
     "culinaria": "Caipira",
     "categoria": "Sobremesas",
     "tempo_preparo": 50,
-    "tags": ["Raízes do Brasil"],
+    "tags": [
+      "Raízes do Brasil"
+    ],
     "dica_chefe": "Não bater demais a massa após adicionar o fubá.",
     "dificuldade": "Fácil",
-    "imagem": "https://static.itdg.com.br/images/1200-630/6e568c96326ae47d7a75bf9d2e96bb60/bolo-de-fuba-simples.jpg"
+    "imagem": "https://static.itdg.com.br/images/1200-630/6e568c96326ae47d7a75bf9d2e96bb60/bolo-de-fuba-simples.jpg",
+    "autor": "Renan Silva",
+    "porcoes": 10,
+    "ingredientes": [
+      "Fubá",
+      "Farinha trigo",
+      "Ovos",
+      "Leite",
+      "Erva doce"
+    ],
+    "passos": [
+      "Bata os líquidos e açúcar",
+      "Misture as farinhas",
+      "Asse por 40min a 180°C."
+    ]
   },
   {
     "id": 42,
@@ -510,10 +1248,27 @@
     "culinaria": "Paraense",
     "categoria": "Sobremesas",
     "tempo_preparo": 10,
-    "tags": ["Raízes do Brasil", "Express", "Plant Based"],
+    "tags": [
+      "Raízes do Brasil",
+      "Express",
+      "Plant Based"
+    ],
     "dica_chefe": "Complementar com banana prata e granola.",
     "dificuldade": "Fácil",
-    "imagem": "https://www.estadao.com.br/resizer/v2/LVCQIRNFYVGEZFYSOK6SIUVACQ.jpeg?quality=80&auth=81f458cb9ba3abf60265c92748e1d5235fcc1d9f3143403fd9cf8257fbddfa8a&width=1075&height=527&focal=4288,2316"
+    "imagem": "https://www.estadao.com.br/resizer/v2/LVCQIRNFYVGEZFYSOK6SIUVACQ.jpeg?quality=80&auth=81f458cb9ba3abf60265c92748e1d5235fcc1d9f3143403fd9cf8257fbddfa8a&width=1075&height=527&focal=4288,2316",
+    "autor": "Renan Silva",
+    "porcoes": 1,
+    "ingredientes": [
+      "Polpa de açaí",
+      "Xarope guaraná",
+      "Banana",
+      "Granola"
+    ],
+    "passos": [
+      "Bata o açaí com o xarope",
+      "Coloque na tigela",
+      "Adicione as frutas e granola."
+    ]
   },
   {
     "id": 43,
@@ -522,10 +1277,26 @@
     "culinaria": "Pernambucana",
     "categoria": "Sobremesas",
     "tempo_preparo": 30,
-    "tags": ["Raízes do Brasil", "Express"],
+    "tags": [
+      "Raízes do Brasil",
+      "Express"
+    ],
     "dica_chefe": "Usar banana-da-terra madura e queijo coalho curado.",
     "dificuldade": "Fácil",
-    "imagem": "https://lirp.cdn-website.com/33406c6e/dms3rep/multi/opt/cartola-640w.jpg"
+    "imagem": "https://lirp.cdn-website.com/33406c6e/dms3rep/multi/opt/cartola-640w.jpg",
+    "autor": "Chef Murilo",
+    "porcoes": 1,
+    "ingredientes": [
+      "Banana",
+      "Queijo coalho",
+      "Açúcar",
+      "Canela"
+    ],
+    "passos": [
+      "Frite a banana e o queijo",
+      "Coloque o queijo sobre a banana",
+      "Polvilhe açúcar e canela."
+    ]
   },
   {
     "id": 44,
@@ -534,10 +1305,26 @@
     "culinaria": "Caipira",
     "categoria": "Sobremesas",
     "tempo_preparo": 40,
-    "tags": ["Raízes do Brasil"],
+    "tags": [
+      "Raízes do Brasil"
+    ],
     "dica_chefe": "Coar o milho batido para garantir um creme liso.",
     "dificuldade": "Médio",
-    "imagem": "https://www.sabornamesa.com.br/media/k2/items/cache/e791ab626e6785062374d45b25cc6e7f_XL.jpg"
+    "imagem": "https://www.sabornamesa.com.br/media/k2/items/cache/e791ab626e6785062374d45b25cc6e7f_XL.jpg",
+    "autor": "Chef Casa",
+    "porcoes": 4,
+    "ingredientes": [
+      "Milho verde",
+      "Leite",
+      "Açúcar",
+      "Canela"
+    ],
+    "passos": [
+      "Bata o milho com leite",
+      "Peneire",
+      "Cozinhe com açúcar até engrossar",
+      "Finalize com canela."
+    ]
   },
   {
     "id": 45,
@@ -546,10 +1333,24 @@
     "culinaria": "Brasileira",
     "categoria": "Sobremesas",
     "tempo_preparo": 80,
-    "tags": ["Raízes do Brasil"],
+    "tags": [
+      "Raízes do Brasil"
+    ],
     "dica_chefe": "Polvilhar açúcar de confeiteiro ainda morno.",
     "dificuldade": "Dificíl",
-    "imagem": "https://imagem.band.com.br/58/f_388058.jpg"
+    "imagem": "https://imagem.band.com.br/58/f_388058.jpg",
+    "autor": "Chef Casa",
+    "porcoes": 10,
+    "ingredientes": [
+      "Massa fermentada",
+      "Creme confeiteiro",
+      "Açúcar confeiteiro"
+    ],
+    "passos": [
+      "Modele as bolas",
+      "Asse até dourar",
+      "Corte e recheie com o creme."
+    ]
   },
   {
     "id": 46,
@@ -558,10 +1359,26 @@
     "culinaria": "Brasileira",
     "categoria": "Sobremesas",
     "tempo_preparo": 40,
-    "tags": ["Raízes do Brasil"],
+    "tags": [
+      "Raízes do Brasil"
+    ],
     "dica_chefe": "A massa deve desgrudar da panela antes de fritar.",
     "dificuldade": "Médio",
-    "imagem": "https://blog.oyshi.com.br/wp-content/uploads/2019/06/original-661b832cb72cd83ff8c9f8f0abd6f4a9.jpg"
+    "imagem": "https://blog.oyshi.com.br/wp-content/uploads/2019/06/original-661b832cb72cd83ff8c9f8f0abd6f4a9.jpg",
+    "autor": "Chef Casa",
+    "porcoes": 5,
+    "ingredientes": [
+      "Água",
+      "Farinha",
+      "Manteiga",
+      "Doce de leite"
+    ],
+    "passos": [
+      "Faça a massa cozida",
+      "Modele",
+      "Frite em óleo quente",
+      "Recheie com doce de leite."
+    ]
   },
   {
     "id": 47,
@@ -570,10 +1387,28 @@
     "culinaria": "Francesa",
     "categoria": "Sobremesas",
     "tempo_preparo": 25,
-    "tags": ["explorar o mundo", "Express"],
+    "tags": [
+      "explorar o mundo",
+      "Express"
+    ],
     "dica_chefe": "O centro deve tremer ao retirar do forno.",
     "dificuldade": "Dificíl",
-    "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTim7T_lACYpmPL7fhBLCw4Cwa0NM4797IlqA&s"
+    "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTim7T_lACYpmPL7fhBLCw4Cwa0NM4797IlqA&s",
+    "autor": "Chef Casa",
+    "porcoes": 2,
+    "ingredientes": [
+      "Chocolate meio amargo",
+      "Manteiga",
+      "Ovos",
+      "Açúcar",
+      "Trigo"
+    ],
+    "passos": [
+      "Derreta chocolate e manteiga",
+      "Misture ovos e açúcar",
+      "Adicione trigo",
+      "Asse por apenas 8min."
+    ]
   },
   {
     "id": 48,
@@ -582,10 +1417,26 @@
     "culinaria": "Brasileira",
     "categoria": "Sobremesas",
     "tempo_preparo": 35,
-    "tags": ["Raízes do Brasil"],
+    "tags": [
+      "Raízes do Brasil"
+    ],
     "dica_chefe": "Refrigerar por no mínimo 6 horas.",
     "dificuldade": "Médio",
-    "imagem": "https://www.estadao.com.br/resizer/Z-s1mknxQPCfbKSPAwr_cVk61s4=/arc-anglerfish-arc2-prod-estadao/public/SNSCBRLSENEAVNIHYCJC5DUWA4.jpg"
+    "imagem": "https://www.estadao.com.br/resizer/Z-s1mknxQPCfbKSPAwr_cVk61s4=/arc-anglerfish-arc2-prod-estadao/public/SNSCBRLSENEAVNIHYCJC5DUWA4.jpg",
+    "autor": "Chef Casa",
+    "porcoes": 8,
+    "ingredientes": [
+      "Biscoito Calipso",
+      "Creme de leite",
+      "Manteiga",
+      "Chocolate"
+    ],
+    "passos": [
+      "Forre a forma com biscoito",
+      "Prepare o creme branco",
+      "Cubra com ganache de chocolate",
+      "Gele bem."
+    ]
   },
   {
     "id": 49,
@@ -594,10 +1445,23 @@
     "culinaria": "Pernambucana",
     "categoria": "Sobremesas",
     "tempo_preparo": 60,
-    "tags": ["Raízes do Brasil"],
+    "tags": [
+      "Raízes do Brasil"
+    ],
     "dica_chefe": "Espalhar a goiabada morna para não quebrar a massa.",
     "dificuldade": "Dificíl",
-    "imagem": "https://www.receitasnestle.com.br/sites/default/files/srh_recipes/d5c3b12263781084d3e84b11c2d33027.jpg"
+    "imagem": "https://www.receitasnestle.com.br/sites/default/files/srh_recipes/d5c3b12263781084d3e84b11c2d33027.jpg",
+    "autor": "Chef Murilo",
+    "porcoes": 10,
+    "ingredientes": [
+      "Massa fina amanteigada",
+      "Goiabada cremosa"
+    ],
+    "passos": [
+      "Asse camadas finas de massa",
+      "Passe goiabada",
+      "Enrole bem apertado ainda morno."
+    ]
   },
   {
     "id": 50,
@@ -606,10 +1470,26 @@
     "culinaria": "Internacional",
     "categoria": "Bebidas",
     "tempo_preparo": 15,
-    "tags": ["explorar o mundo", "Express"],
+    "tags": [
+      "explorar o mundo",
+      "Express"
+    ],
     "dica_chefe": "Cozinhar alguns minutos após ferver para encorpar.",
     "dificuldade": "Fácil",
-    "imagem": "https://static.itdg.com.br/images/640-400/5501aedc97eea37742dc233e0e704476/chocolate-quente-cremoso-de-3-ingredientes.jpg"
+    "imagem": "https://static.itdg.com.br/images/640-400/5501aedc97eea37742dc233e0e704476/chocolate-quente-cremoso-de-3-ingredientes.jpg",
+    "autor": "Renan Silva",
+    "porcoes": 2,
+    "ingredientes": [
+      "Leite",
+      "Chocolate em pó",
+      "Maisena",
+      "Canela"
+    ],
+    "passos": [
+      "Dissolva a maisena no leite",
+      "Adicione chocolate",
+      "Cozinhe mexendo até engrossar."
+    ]
   },
   {
     "id": 51,
@@ -618,10 +1498,27 @@
     "culinaria": "Brasileira",
     "categoria": "Bebidas",
     "tempo_preparo": 5,
-    "tags": ["Raízes do Brasil", "Express", "Plant Based"],
+    "tags": [
+      "Raízes do Brasil",
+      "Express",
+      "Plant Based"
+    ],
     "dica_chefe": "Amassar o limão delicadamente para não amargar.",
     "dificuldade": "Fácil",
-    "imagem": "https://i.panelinha.com.br/i1/bk-8730-blog-caipirinha-de-limao.webp"
+    "imagem": "https://i.panelinha.com.br/i1/bk-8730-blog-caipirinha-de-limao.webp",
+    "autor": "Renan Silva",
+    "porcoes": 1,
+    "ingredientes": [
+      "Limão",
+      "Cachaça",
+      "Açúcar",
+      "Gelo"
+    ],
+    "passos": [
+      "Macere limão e açúcar",
+      "Adicione gelo e cachaça",
+      "Misture bem."
+    ]
   },
   {
     "id": 52,
@@ -630,10 +1527,26 @@
     "culinaria": "Brasileira",
     "categoria": "Bebidas",
     "tempo_preparo": 25,
-    "tags": ["Raízes do Brasil", "Express"],
+    "tags": [
+      "Raízes do Brasil",
+      "Express"
+    ],
     "dica_chefe": "Adicionar a cachaça apenas após desligar o fogo.",
     "dificuldade": "Fácil",
-    "imagem": "https://conteudo.imguol.com.br/c/entretenimento/d9/2021/06/30/quentao-1625077051459_v2_1x1.jpg"
+    "imagem": "https://conteudo.imguol.com.br/c/entretenimento/d9/2021/06/30/quentao-1625077051459_v2_1x1.jpg",
+    "autor": "Chef Casa",
+    "porcoes": 6,
+    "ingredientes": [
+      "Cachaça",
+      "Gengibre",
+      "Açúcar",
+      "Especiarias"
+    ],
+    "passos": [
+      "Caramelize açúcar e especiarias",
+      "Adicione gengibre e água",
+      "Finalize com cachaça."
+    ]
   },
   {
     "id": 53,
@@ -642,10 +1555,25 @@
     "culinaria": "Brasileira",
     "categoria": "Bebidas",
     "tempo_preparo": 5,
-    "tags": ["Raízes do Brasil", "Express"],
+    "tags": [
+      "Raízes do Brasil",
+      "Express"
+    ],
     "dica_chefe": "Usar leite de coco gelado e coco ralado fresco.",
     "dificuldade": "Fácil",
-    "imagem": "https://mapadacachaca.com.br/wp-content/uploads/2024/11/batida-de-coco-brasilchik-optimized.jpg"
+    "imagem": "https://mapadacachaca.com.br/wp-content/uploads/2024/11/batida-de-coco-brasilchik-optimized.jpg",
+    "autor": "Chef Casa",
+    "porcoes": 2,
+    "ingredientes": [
+      "Leite de coco",
+      "Leite condensado",
+      "Cachaça",
+      "Gelo"
+    ],
+    "passos": [
+      "Bata tudo no liquidificador",
+      "Sirva gelado com coco ralado."
+    ]
   },
   {
     "id": 54,
@@ -654,10 +1582,26 @@
     "culinaria": "Brasileira",
     "categoria": "Bebidas",
     "tempo_preparo": 8,
-    "tags": ["Raízes do Brasil", "Express", "Plant Based"],
+    "tags": [
+      "Raízes do Brasil",
+      "Express",
+      "Plant Based"
+    ],
     "dica_chefe": "Bater o limão com casca por no máximo 30 segundos.",
     "dificuldade": "Fácil",
-    "imagem": "https://cozinha365.com.br/wp-content/uploads/2024/12/Limonada-Suica-Cremosa-S.webp"
+    "imagem": "https://cozinha365.com.br/wp-content/uploads/2024/12/Limonada-Suica-Cremosa-S.webp",
+    "autor": "Renan Silva",
+    "porcoes": 2,
+    "ingredientes": [
+      "Limão com casca",
+      "Leite condensado",
+      "Água",
+      "Gelo"
+    ],
+    "passos": [
+      "Bata tudo rápido no liquidificador",
+      "Coue imediatamente para não amargar."
+    ]
   },
   {
     "id": 55,
@@ -666,10 +1610,23 @@
     "culinaria": "Nordestina",
     "categoria": "Bebidas",
     "tempo_preparo": 45,
-    "tags": ["Raízes do Brasil"],
+    "tags": [
+      "Raízes do Brasil"
+    ],
     "dica_chefe": "Deixar o suco descansar por 30 minutos sem mexer para decantar.",
     "dificuldade": "Médio",
-    "imagem": "https://www.embrapa.br/bme_images/m/146160120m.jpg"
+    "imagem": "https://www.embrapa.br/bme_images/m/146160120m.jpg",
+    "autor": "Chef Murilo",
+    "porcoes": 4,
+    "ingredientes": [
+      "Suco de caju puro",
+      "Gelatina (para clarificar)"
+    ],
+    "passos": [
+      "Filtre o suco",
+      "Cozinha em banho-maria por horas até caramelizar",
+      "Gele."
+    ]
   },
   {
     "id": 56,
@@ -678,10 +1635,24 @@
     "culinaria": "Gaúcha",
     "categoria": "Bebidas",
     "tempo_preparo": 10,
-    "tags": ["Raízes do Brasil", "Express"],
+    "tags": [
+      "Raízes do Brasil",
+      "Express"
+    ],
     "dica_chefe": "Nunca usar água fervendo; aquecer até cerca de 75°C.",
     "dificuldade": "Médio",
-    "imagem": "https://www.seara.com.br/wp-content/uploads/2025/09/R0525-chimarrao-tradicional-1200x675-2.webp"
+    "imagem": "https://www.seara.com.br/wp-content/uploads/2025/09/R0525-chimarrao-tradicional-1200x675-2.webp",
+    "autor": "Chef Casa",
+    "porcoes": 1,
+    "ingredientes": [
+      "Erva-mate",
+      "Água quente (não fervendo)"
+    ],
+    "passos": [
+      "Encha 2/3 da cuia com erva",
+      "Incline para criar o espaço",
+      "Coloque água morna e depois a bomba."
+    ]
   },
   {
     "id": 57,
@@ -690,10 +1661,25 @@
     "culinaria": "Brasileira",
     "categoria": "Bebidas",
     "tempo_preparo": 2,
-    "tags": ["Raízes do Brasil", "Express"],
+    "tags": [
+      "Raízes do Brasil",
+      "Express"
+    ],
     "dica_chefe": "Proporção clássica: 2/3 de cachaça para 1/3 de vermute tinto.",
     "dificuldade": "Fácil",
-    "imagem": "https://viagem.cnnbrasil.com.br/wp-content/uploads/sites/5/2023/05/rabo-de-galo.jpg?w=1200&h=900&crop=1"
+    "imagem": "https://viagem.cnnbrasil.com.br/wp-content/uploads/sites/5/2023/05/rabo-de-galo.jpg?w=1200&h=900&crop=1",
+    "autor": "Mixologista",
+    "porcoes": 1,
+    "ingredientes": [
+      "Cachaça",
+      "Vermute tinto",
+      "Gelo"
+    ],
+    "passos": [
+      "Misture 2 partes de cachaça para 1 de vermute",
+      "Mexa com gelo",
+      "Sirva."
+    ]
   },
   {
     "id": 58,
@@ -702,10 +1688,23 @@
     "culinaria": "Brasileira",
     "categoria": "Bebidas",
     "tempo_preparo": 5,
-    "tags": ["Raízes do Brasil", "Express", "Plant Based"],
+    "tags": [
+      "Raízes do Brasil",
+      "Express",
+      "Plant Based"
+    ],
     "dica_chefe": "Abrir o coco verde na hora e servir com gelo na própria casca.",
     "dificuldade": "Fácil",
-    "imagem": "https://www.biovie.fr/img/cms/eau-de-coco-bienfaits.png"
+    "imagem": "https://www.biovie.fr/img/cms/eau-de-coco-bienfaits.png",
+    "autor": "Natureza",
+    "porcoes": 1,
+    "ingredientes": [
+      "1 coco verde"
+    ],
+    "passos": [
+      "Abra o topo do coco",
+      "Sirva com canudo ou em copo com gelo."
+    ]
   },
   {
     "id": 59,
@@ -714,9 +1713,27 @@
     "culinaria": "Cubana",
     "categoria": "Bebidas",
     "tempo_preparo": 7,
-    "tags": ["explorar o mundo", "Express", "Plant Based"],
+    "tags": [
+      "explorar o mundo",
+      "Express",
+      "Plant Based"
+    ],
     "dica_chefe": "Macerar hortelã com açúcar sem rasgar as folhas.",
     "dificuldade": "Fácil",
-    "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTre6FvzNep4zA9Snm4ZUdmW9ByMYe9f7QiA&s"
+    "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTre6FvzNep4zA9Snm4ZUdmW9ByMYe9f7QiA&s",
+    "autor": "Chef Casa",
+    "porcoes": 1,
+    "ingredientes": [
+      "Hortelã",
+      "Rum",
+      "Água com gás",
+      "Limão",
+      "Açúcar"
+    ],
+    "passos": [
+      "Macere hortelã, limão e açúcar",
+      "Adicione rum e gelo",
+      "Complete com água com gás."
+    ]
   }
 ]
